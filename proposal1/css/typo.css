@@ -1,9 +1,17 @@
 /* TYPOGRAPHY */
 
 h1 {
+	font-family: "baskerville-display-pt", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
 }
 
 h2 {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 20px;
 }
 
 h3 {
@@ -19,7 +27,15 @@ h6 {
 }
 
 p {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: medium italic;
+	font-size: 14px;
 }
 
 a {
+	text-decoration: none;
+}
+a:hover {
+	color: #415b01;
 }

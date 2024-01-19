@@ -1,6 +1,21 @@
 /* BUTTONS */
 
 .btn-primary {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: bold;
+	color: #415b01;
+	background-color: #fbf8f3;
+	padding: 5px;
+	text-decoration: none;
+}
+.btn-primary:hover {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: bold;
+	color: #fbf8f3;
+	background-color: #415b01;
+	padding: 5px;
 }
 
 .btn-secondary {
