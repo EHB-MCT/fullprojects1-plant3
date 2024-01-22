@@ -1,10 +1,13 @@
 body {
 	font-family: "houschka-rounded", sans-serif;
 	background-color: #fbf8f3;
+	margin-left: 7%;
+	margin-right: 7%;
 }
 
 .navigation {
-	padding-left: 37%;
+	display: flex;
+	justify-content: center;
 	padding-top: 12px;
 	font-size: 14px;
 }
@@ -26,7 +29,7 @@ body {
 
 .titel h1 {
 	font-family: "baskerville-display-pt", serif;
-	font-size: 200px;
+	font-size: 180px;
 	font-weight: 400;
 	font-style: normal;
 	color: #5f5642;
@@ -52,4 +55,10 @@ body {
 	font-style: medium italic;
 	font-size: 16px;
 	padding-left: 32%;
+}
+
+.second img {
+	width: 470px;
+	padding-top: 190px;
+	padding-left: 200px;
 }

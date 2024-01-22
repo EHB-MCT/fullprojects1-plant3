@@ -19,7 +19,8 @@ p {
 }
 
 .navigation {
-	padding-left: 37%;
+	display: flex;
+	justify-content: center;
 	padding-top: 12px;
 	font-size: 14px;
 }
@@ -38,7 +39,6 @@ p {
 	text-decoration: none;
 	color: #5f5642;
 }
-
 h2 {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
