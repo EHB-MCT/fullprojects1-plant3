@@ -1,8 +1,3 @@
-body {
-	font-family: "houschka-rounded", sans-serif;
-	background-color: #fbf8f3;
-}
-
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
@@ -25,24 +20,6 @@ p {
 	font-size: 14px;
 }
 
-.navigation ul {
-	margin: 0;
-	padding: 0px;
-}
-
-.navigation ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-.navigation ul li a {
-	text-decoration: none;
-	color: #5f5642;
-}
-
-.navigation ul li a:hover {
-	color: #415b01;
-}
 h2 {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;

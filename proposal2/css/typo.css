@@ -1,3 +1,5 @@
+/* TYPOGRAPHY */
+
 h1 {
 	font-family: "baskerville-display-pt", serif;
 	font-weight: 400;
@@ -26,6 +28,17 @@ h4 {
 	font-style: italic;
 	color: #d4b89d;
 }
+
+h5 {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 200;
+	font-style: italic;
+	color: #d4b89d;
+}
+
+h6 {
+}
+
 p {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
@@ -33,26 +46,9 @@ p {
 	font-size: 14px;
 }
 
-body .rapport ul li {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: medium italic;
-	font-size: 14px;
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 50px;
-	margin-left: 15%;
-	margin-right: 15%;
-
-	align-content: center;
+a {
+	text-decoration: none;
 }
-
-fieldset {
-	padding: 0.35em 0.75em 0.625em;
-}
-progress {
-	vertical-align: baseline;
-}
-
-@media screen and (min-width: 153px) {
+a:hover {
+	color: #415b01;
 }

@@ -1,5 +1,5 @@
 /* Reset some default browser styles */
-body,
+
 h1,
 p,
 form,
@@ -8,34 +8,6 @@ input,
 button {
 	margin: 0;
 	padding: 0;
-}
-
-body {
-	font-family: Arial, sans-serif;
-	background-color: #fbf8f3;
-	color: #333;
-}
-
-.navigation {
-	display: flex;
-	justify-content: center;
-	padding-top: 12px;
-	font-size: 14px;
-}
-
-.navigation ul {
-	margin: 0;
-	padding: 0px;
-}
-
-.navigation ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-.navigation ul li a {
-	text-decoration: none;
-	color: #5f5642;
 }
 
 h1 {
