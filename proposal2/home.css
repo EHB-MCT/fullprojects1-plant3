@@ -1,6 +1,7 @@
 .titel h1 {
 	font-size: 210px;
 	text-align: center;
+	/* stretch the font */
 	transform: scaleY(2.2);
 	margin-top: 200px;
 	margin-bottom: 50px;
