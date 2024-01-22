@@ -1,8 +1,8 @@
 .navigation {
 	display: flex;
+	justify-content: center;
 	padding-top: 12px;
 	font-size: 14px;
-	justify-content: center;
 }
 .navigation ul {
 	margin: 0;
@@ -22,27 +22,6 @@ body {
 	background-image: url(Pictures/Background\ 2.png);
 	margin: 0;
 	background-size: cover;
-}
-
-.navigation {
-	padding-left: 37%;
-	padding-top: 12px;
-	font-size: 14px;
-}
-
-.navigation ul {
-	margin: 0;
-	padding: 0px;
-}
-
-.navigation ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-.navigation ul li a {
-	text-decoration: none;
-	color: #5f5642;
 }
 
 h1 {
@@ -94,19 +73,16 @@ fieldset {
 progress {
 	vertical-align: baseline;
 }
+/*tezien {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: medium italic;
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+	margin-left: 15%;
+	margin-right: 15%;
 
-@media screen and (max-width: 153px) {
-	body .rapport ul li {
-		font-family: "houschka-rounded", sans-serif;
-		font-weight: 300;
-		font-style: medium italic;
-		font-size: 14px;
-		display: flex;
-		flex-direction: row;
-		margin-bottom: 50px;
-		margin-left: 15%;
-		margin-right: 15%;
-
-		align-content: center;
-	}
-}
+	align-content: center;
+}*/

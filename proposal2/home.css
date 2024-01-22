@@ -4,7 +4,8 @@ body {
 }
 
 .navigation {
-	padding-left: 37%;
+	display: flex;
+	justify-content: center;
 	padding-top: 12px;
 	font-size: 14px;
 }
