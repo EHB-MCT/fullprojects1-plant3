@@ -1,0 +1,66 @@
+/* Reset some default browser styles */
+
+form {
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: #fbf8f3;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: bold;
+	color: #415b01;
+	background-color: #fbf8f3;
+	padding: 5px;
+	text-decoration: none;
+}
+
+button:hover {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: bold;
+	color: #fbf8f3;
+	background-color: #415b01;
+	padding: 5px;
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+	margin-right: 5px;
+}
+
+/* Add some spacing between radio buttons and their labels */
+label input[type="radio"] {
+	margin-top: 10px;
+}
+::placeholder {
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	color: #d4b89d;
+}
+
+::-ms-input-placeholder {
+	/* Edge 12-18 */
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	color: #d4b89d;
+}
