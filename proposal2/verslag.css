@@ -1,6 +1,27 @@
+.navigation {
+	display: flex;
+	padding-top: 12px;
+	font-size: 14px;
+	justify-content: center;
+}
+.navigation ul {
+	margin: 0;
+	padding: 0px;
+}
+.navigation ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.navigation ul li a {
+	text-decoration: none;
+	color: #5f5642;
+}
+
 body {
 	background-color: #fbf8f3;
+	background-image: url(Pictures/Background\ 2.png);
 	margin: 0;
+	background-size: cover;
 }
 h1 {
 	font-family: "baskerville-display-pt", serif;
@@ -38,26 +59,13 @@ p {
 }
 
 body .rapport ul li {
+	display: contents;
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
 	font-style: medium italic;
 	font-size: 14px;
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 50px;
-	margin-left: 15%;
-	margin-right: 15%;
+}
 
-	align-content: center;
-}
-.navigation ul li {
-	display: flex;
-	flex-wrap: nowrap;
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: medium italic;
-	font-size: 14px;
-}
 fieldset {
 	padding: 0.35em 0.75em 0.625em;
 }
@@ -65,5 +73,18 @@ progress {
 	vertical-align: baseline;
 }
 
-@media screen and (min-width: 153px) {
+@media screen and (max-width: 153px) {
+	body .rapport ul li {
+		font-family: "houschka-rounded", sans-serif;
+		font-weight: 300;
+		font-style: medium italic;
+		font-size: 14px;
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 50px;
+		margin-left: 15%;
+		margin-right: 15%;
+
+		align-content: center;
+	}
 }
