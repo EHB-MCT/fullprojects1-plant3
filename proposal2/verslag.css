@@ -2,6 +2,28 @@ body {
 	background-color: #fbf8f3;
 	margin: 0;
 }
+
+.navigation {
+	padding-left: 37%;
+	padding-top: 12px;
+	font-size: 14px;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0px;
+}
+
+.navigation ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	color: #5f5642;
+}
+
 h1 {
 	font-family: "baskerville-display-pt", serif;
 	font-weight: 400;
@@ -50,14 +72,7 @@ body .rapport ul li {
 
 	align-content: center;
 }
-.navigation ul li {
-	display: flex;
-	flex-wrap: nowrap;
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: medium italic;
-	font-size: 14px;
-}
+
 fieldset {
 	padding: 0.35em 0.75em 0.625em;
 }
