@@ -3,28 +3,10 @@
 	margin: 0 auto;
 }
 
-p {
-	color: #000;
-}
-
 .header {
 	width: 100%;
 	height: 100px;
 	padding-top: 50px;
-}
-
-.navigation {
-	display: flex;
-	justify-content: center;
-	padding-top: 12px;
-	font-size: 14px;
-}
-
-h2 {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-	color: #d4b89d;
 }
 
 .hero {

@@ -1,31 +1,3 @@
-h1 {
-	font-family: "baskerville-display-pt", serif;
-	font-weight: 400;
-	font-style: normal;
-	color: #5f5642;
-}
-
-h2 {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-	color: #d4b89d;
-}
-
-h3 {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-
-	color: #d4b89d;
-}
-
-h4 {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-	color: #d4b89d;
-}
 p {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
@@ -34,6 +6,20 @@ p {
 }
 
 body .rapport ul li {
+	display: contents;
+	font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: medium italic;
+	font-size: 14px;
+}
+
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+progress {
+	vertical-align: baseline;
+}
+/*tezien {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
 	font-style: medium italic;
@@ -45,14 +31,4 @@ body .rapport ul li {
 	margin-right: 15%;
 
 	align-content: center;
-}
-
-fieldset {
-	padding: 0.35em 0.75em 0.625em;
-}
-progress {
-	vertical-align: baseline;
-}
-
-@media screen and (min-width: 153px) {
-}
+}*/
