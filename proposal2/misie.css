@@ -18,32 +18,29 @@ p {
     padding-top: 50px;
 }
 
+.navigation {
+    padding-left: 37%;
+    padding-top: 12px;
+    font-size: 14px;
+}
 
 .navigation ul {
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 .navigation ul li {
     display: inline-block;
-
-    /*margin-right: px;*/
-    font-size: 16px;
-    text-decoration: none;
+    margin-right: 20px;
 }
 
 .navigation ul li a {
-    color: #5f5642
+    text-decoration: none;
+    color: #5f5642;
 }
 
 .navigation ul li a:hover {
-    color: #15762e;
-    transition: 0.5s;
-
-}
-
-.navigation ul li a {
-    text-decoration: none;
+    color: #415b01;
 }
 
 h2 {
@@ -51,4 +48,10 @@ h2 {
     font-weight: 300;
     font-style: italic;
     color: #d4b89d;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-around;
 }
