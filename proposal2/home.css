@@ -1,60 +1,14 @@
-.titel h1 {
-	font-size: 210px;
-	text-align: center;
-	transform: scaleY(2.2);
-	margin-top: 200px;
-	margin-bottom: 50px;
-}
-
-.slogan h1 {
-	margin-right: 50px;
-	text-align: end;
-}
-
-.citaat h2 {
-	text-align: center;
-}
-
-.navigation {
-	margin-top: 5px;
-}
-
-.second {
-	display: flex;
-	/* margin-top: 100px; */
-}
-
-.text {
-	margin-top: 190px;
-	margin-right: 200px;
-}
-
 .second img {
-	width: 100%;
-	margin-top: 100px;
-	margin-left: 200px;
+	width: 470px;
+	padding-top: 190px;
+	padding-left: 200px;
 }
 
-.second h1,
-h2 {
-	margin: 0;
+.second h1 {
+	font-family: "houschka-rounded", sans-serif;
 }
 
-.second p {
-	margin-bottom: 0;
-}
-
-.berger {
-	margin: 0;
-	margin-top: 4px;
-	margin-left: 125px;
-}
-
-.button {
-	margin-top: 30px;
-	margin-left: 150px;
-	color: #415b01;
-	border-radius: 15px;
-	padding: 10px 15px;
-	background-color: white;
+.line {
+	position: fixed;
+	top: 0;
 }

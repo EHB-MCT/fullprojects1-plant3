@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.navigation {
+HEAD .navigation {
 	display: flex;
 	justify-content: center;
 	padding-top: 12px;
@@ -51,8 +50,6 @@ h4 {
 	font-style: italic;
 	color: #d4b89d;
 }
-=======
->>>>>>> c7f5dd49ffab1874abcad7bf8a660d48e8ee89f9
 p {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
