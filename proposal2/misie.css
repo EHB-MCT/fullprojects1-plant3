@@ -1,0 +1,16 @@
+body {
+    font-family: "houschka-rounded", sans-serif;
+
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
