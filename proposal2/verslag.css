@@ -65,8 +65,7 @@ progress {
 .divide {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	margin-left: 0;
+	justify-content: center;
 	margin-bottom: 20px;
 	/*background-color: #d4b89d;
 	border-radius: 25px;
@@ -78,6 +77,7 @@ progress {
 	border-radius: 10px;
 	border: 10px;
 	padding: 10px;
+	margin-left: -40px;
 }
 .btn-primary {
 	padding: 0;
@@ -97,6 +97,8 @@ progress {
 }
 img {
 	height: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .vines {
 	height: 100%;
