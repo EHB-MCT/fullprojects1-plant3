@@ -1,4 +1,24 @@
+.home {
+	position: relative;
+}
+
+.lineart img {
+	max-width: 145%;
+	max-height: 145%;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.titel {
+	position: relative;
+	z-index: 2;
+}
+
 .titel h1 {
+	color: #5f5642;
 	font-size: 210px;
 	text-align: center;
 	transform: scaleY(2.2);
@@ -59,10 +79,24 @@ h2 {
 	background-color: white;
 }
 
+.third h2 {
+	margin-left: 16%;
+	margin-top: 120px;
+}
+
+.carousel {
+	display: grid;
+	grid-template-rows: auto auto; /* Two rows: one for buttons and one for the carousel */
+	grid-template-columns: repeat(
+		7,
+		1fr
+	); /* Adjust the number of columns based on your layout */
+}
+
 main#carousel {
-	grid-row: 1 / 2;
+	grid-row: 2 / 3;
 	grid-column: 1 / 8;
-	width: 100vw;
+	width: 65vw;
 	height: 500px;
 	display: flex;
 	align-items: center;
