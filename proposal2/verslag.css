@@ -1,25 +1,13 @@
-HEAD .navigation {
-	display: flex;
-	justify-content: center;
-	padding-top: 12px;
-	font-size: 14px;
+.navigation {
+	margin-bottom: 30px;
 }
 .navigation ul {
 	margin: 0;
 	padding: 0px;
 }
-.navigation ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-.navigation ul li a {
-	text-decoration: none;
-	color: #5f5642;
-}
 
 body {
-	background-color: #fbf8f3;
-	margin: 0;
+	margin: 20px;
 }
 
 h1 {
@@ -73,6 +61,51 @@ fieldset {
 }
 progress {
 	vertical-align: baseline;
+}
+.divide {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 20px;
+	/*background-color: #d4b89d;
+	border-radius: 25px;
+	background-size: cover;*/
+}
+.rapport .list .days .divide ul .btn-primary li {
+	display: block;
+	background-color: #d4b89d;
+	border-radius: 10px;
+	border: 10px;
+	padding: 10px;
+	margin-left: -40px;
+}
+.btn-primary {
+	padding: 0;
+}
+.btn-primary:hover {
+	padding: 0;
+}
+.days {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+img {
+	height: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.vines {
+	height: 100%;
+	margin-right: 0;
+	margin-left: 10px;
+	margin-right: -40px;
+	background-color: #fbf8f3;
 }
 /*tezien {
 	font-family: "houschka-rounded", sans-serif;
