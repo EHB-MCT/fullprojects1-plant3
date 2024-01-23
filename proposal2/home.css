@@ -1,9 +1,150 @@
-.second img {
-	width: 470px;
-	padding-top: 190px;
-	padding-left: 200px;
+.titel h1 {
+	font-size: 210px;
+	text-align: center;
+	transform: scaleY(2.2);
+	margin-top: 200px;
+	margin-bottom: 50px;
 }
 
-.second h1 {
-	font-family: "houschka-rounded", sans-serif;
+.slogan h1 {
+	margin-right: 50px;
+	text-align: end;
+}
+
+.citaat h2 {
+	text-align: center;
+}
+
+.navigation {
+	margin-top: 5px;
+}
+
+.second {
+	display: flex;
+	/* margin-top: 100px; */
+}
+
+.text {
+	margin-top: 190px;
+	margin-right: 200px;
+}
+
+.second img {
+	width: 100%;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+.second h1,
+h2 {
+	margin: 0;
+}
+
+.second p {
+	margin-bottom: 0;
+}
+
+.berger {
+	margin: 0;
+	margin-top: 4px;
+	margin-left: 125px;
+}
+
+.button {
+	margin-top: 30px;
+	margin-left: 150px;
+	color: #415b01;
+	border-radius: 15px;
+	padding: 10px 15px;
+	background-color: white;
+}
+
+main#carousel {
+	grid-row: 1 / 2;
+	grid-column: 1 / 8;
+	width: 100vw;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	transform-style: preserve-3d;
+	perspective: 600px;
+	--items: 5;
+	--middle: 3;
+	--position: 1;
+	pointer-events: none;
+}
+
+div.item {
+	position: absolute;
+	width: 150px;
+	height: 200px;
+	--r: calc(var(--position) - var(--offset));
+	--abs: max(calc(var(--r) * -1), var(--r));
+	transition: all 0.25s linear;
+	transform: rotateY(calc(-10deg * var(--r)))
+		translateX(calc(-150px * var(--r)));
+	z-index: calc((var(--position) - var(--abs)));
+}
+
+div.item:nth-of-type(1) {
+	--offset: 1;
+	background-image: url("Pictures/Roos.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+div.item:nth-of-type(2) {
+	--offset: 2;
+	background-image: url("Pictures/Bloem.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+div.item:nth-of-type(3) {
+	--offset: 3;
+	background-image: url("Pictures/Kelk.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+div.item:nth-of-type(4) {
+	--offset: 4;
+	background-image: url("Pictures/Maddelief.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+input:nth-of-type(1) {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+	--position: 1;
+}
+
+input:nth-of-type(2) {
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+	--position: 2;
+}
+
+input:nth-of-type(3) {
+	grid-column: 4 /5;
+	grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+	--position: 3;
+}
+
+input:nth-of-type(4) {
+	grid-column: 5 / 6;
+	grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+	--position: 4;
 }
