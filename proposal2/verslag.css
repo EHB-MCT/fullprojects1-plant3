@@ -1,8 +1,9 @@
-HEAD .navigation {
+.navigation {
 	display: flex;
 	justify-content: center;
 	padding-top: 12px;
 	font-size: 14px;
+	margin-bottom: 30px;
 }
 .navigation ul {
 	margin: 0;
@@ -19,7 +20,7 @@ HEAD .navigation {
 
 body {
 	background-color: #fbf8f3;
-	margin: 0;
+	margin: 20px;
 }
 
 h1 {
@@ -73,6 +74,34 @@ fieldset {
 }
 progress {
 	vertical-align: baseline;
+}
+.divide {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 0;
+}
+.divide li {
+	display: block;
+}
+.days {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+img {
+	height: 80px;
+}
+.vines {
+	height: 100%;
+	margin-right: 0;
+	margin-left: 10px;
+	margin-right: -40px;
 }
 /*tezien {
 	font-family: "houschka-rounded", sans-serif;
