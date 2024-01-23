@@ -85,5 +85,24 @@ h2 {
 }
 
 .fullwidth {
-	background-color: white;
+	background-size: 100%;
+}
+
+.fullwidth.wave-top {
+	height: 200px;
+	background-image: url(images/wave.svg);
+}
+
+.fullwidth.wave-bottom {
+	height: 500px;
+	background-image: url(images/wave-bottom.svg);
+}
+
+.fullwidth.no-wave {
+	background-image: none;
+	background-color: #fff;
+}
+
+.fullwidth.no-wave p {
+	margin: 0;
 }
