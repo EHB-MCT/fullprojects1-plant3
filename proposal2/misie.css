@@ -8,3 +8,42 @@
 	display: flex;
 	justify-content: space-around;
 }
+
+.missie {
+	position: relative;
+}
+
+.missie img {
+	width: 70%;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.missie h1 {
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+.missie p {
+	position: absolute;
+	top: 10%;
+	left: 75%;
+	width: 30%;
+}
+
+.visie img {
+	width: 60%;
+	margin-top: 100px;
+	margin-left: 130px;
+}
+
+.visie p {
+	position: absolute;
+	top: 50%;
+	right: 37%;
+	width: 10%;
+}
+
+.tree img {
+	margin-right: 50px;
+}
