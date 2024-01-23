@@ -84,156 +84,25 @@ h2 {
 	margin-top: 120px;
 }
 
-.fourth {
-	background-color: white;
-	height: 70vh;
-	--mask: radial-gradient(107.33px at 50% 144px, #000 99%, #0000 101%)
-			calc(50% - 96px) 0/192px 51% repeat-x,
-		radial-gradient(107.33px at 50% -96px, #0000 99%, #000 101%) 50% 48px/192px
-			calc(51% - 48px) repeat-x,
-		radial-gradient(107.33px at 50% calc(100% - 144px), #000 99%, #0000 101%)
-			50% 100%/192px 51% repeat-x,
-		radial-gradient(107.33px at 50% calc(100% + 96px), #0000 99%, #000 101%)
-			calc(50% - 96px) calc(100% - 48px) / 192px calc(51% - 48px) repeat-x;
-	-webkit-mask: var(--mask);
-	mask: var(--mask);
+.fullwidth {
+	background-size: 100%;
 }
 
-@keyframes tonext {
-	75% {
-		left: 0;
-	}
-	95% {
-		left: 100%;
-	}
-	98% {
-		left: 100%;
-	}
-	99% {
-		left: 0;
-	}
+.fullwidth.wave-top {
+	height: 200px;
+	background-image: url(images/wave.svg);
 }
 
-@keyframes tostart {
-	75% {
-		left: 0;
-	}
-	95% {
-		left: -300%;
-	}
-	98% {
-		left: -300%;
-	}
-	99% {
-		left: 0;
-	}
+.fullwidth.wave-bottom {
+	height: 500px;
+	background-image: url(images/wave-bottom.svg);
 }
 
-@keyframes snap {
-	96% {
-		scroll-snap-align: center;
-	}
-	97% {
-		scroll-snap-align: none;
-	}
-	99% {
-		scroll-snap-align: none;
-	}
-	100% {
-		scroll-snap-align: center;
-	}
+.fullwidth.no-wave {
+	background-image: none;
+	background-color: #fff;
 }
 
-body {
-	margin: 0 auto;
-	padding: 0 1.25rem;
-}
-
-* {
-	box-sizing: border-box;
-	scrollbar-color: transparent transparent; /* thumb and track color */
-	scrollbar-width: 0px;
-}
-
-*::-webkit-scrollbar {
-	width: 0;
-}
-
-*::-webkit-scrollbar-track {
-	background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-	background: transparent;
-	border: none;
-}
-
-* {
-	-ms-overflow-style: none;
-}
-
-ol,
-li {
-	list-style: none;
+.fullwidth.no-wave p {
 	margin: 0;
-	padding: 0;
-}
-
-.carousel {
-	position: relative;
-	padding-top: 5%;
-	filter: drop-shadow(0 0 10px #0003);
-	perspective: 100px;
-	width: 86%;
-	height: 50vh;
-	margin: 0 auto;
-}
-
-.carousel__slide {
-	height: 50%;
-}
-
-.carousel__viewport {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	display: flex;
-	overflow-x: scroll;
-	overflow-y: scroll;
-	counter-reset: item;
-	scroll-behavior: smooth;
-	scroll-snap-type: x mandatory;
-}
-
-.carousel__slide {
-	position: relative;
-	flex: 0 0 100%;
-	width: 100%;
-	background-color: #f99;
-	counter-increment: item;
-}
-
-.carousel__slide:nth-child(even) {
-	background-color: #99f;
-}
-
-.carousel__slide:before {
-	content: counter(item);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate3d(-50%, -40%, 70px);
-	color: #fff;
-	font-size: 2em;
-}
-
-.carousel__snapper {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	scroll-snap-align: center;
 }
