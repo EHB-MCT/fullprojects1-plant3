@@ -84,101 +84,156 @@ h2 {
 	margin-top: 120px;
 }
 
+.fourth {
+	background-color: white;
+	height: 70vh;
+	--mask: radial-gradient(107.33px at 50% 144px, #000 99%, #0000 101%)
+			calc(50% - 96px) 0/192px 51% repeat-x,
+		radial-gradient(107.33px at 50% -96px, #0000 99%, #000 101%) 50% 48px/192px
+			calc(51% - 48px) repeat-x,
+		radial-gradient(107.33px at 50% calc(100% - 144px), #000 99%, #0000 101%)
+			50% 100%/192px 51% repeat-x,
+		radial-gradient(107.33px at 50% calc(100% + 96px), #0000 99%, #000 101%)
+			calc(50% - 96px) calc(100% - 48px) / 192px calc(51% - 48px) repeat-x;
+	-webkit-mask: var(--mask);
+	mask: var(--mask);
+}
+
+@keyframes tonext {
+	75% {
+		left: 0;
+	}
+	95% {
+		left: 100%;
+	}
+	98% {
+		left: 100%;
+	}
+	99% {
+		left: 0;
+	}
+}
+
+@keyframes tostart {
+	75% {
+		left: 0;
+	}
+	95% {
+		left: -300%;
+	}
+	98% {
+		left: -300%;
+	}
+	99% {
+		left: 0;
+	}
+}
+
+@keyframes snap {
+	96% {
+		scroll-snap-align: center;
+	}
+	97% {
+		scroll-snap-align: none;
+	}
+	99% {
+		scroll-snap-align: none;
+	}
+	100% {
+		scroll-snap-align: center;
+	}
+}
+
+body {
+	margin: 0 auto;
+	padding: 0 1.25rem;
+}
+
+* {
+	box-sizing: border-box;
+	scrollbar-color: transparent transparent; /* thumb and track color */
+	scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+	width: 0;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: transparent;
+	border: none;
+}
+
+* {
+	-ms-overflow-style: none;
+}
+
+ol,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
 .carousel {
-	display: grid;
-	grid-template-rows: auto auto; /* Two rows: one for buttons and one for the carousel */
-	grid-template-columns: repeat(
-		7,
-		1fr
-	); /* Adjust the number of columns based on your layout */
+	position: relative;
+	padding-top: 5%;
+	filter: drop-shadow(0 0 10px #0003);
+	perspective: 100px;
+	width: 86%;
+	height: 50vh;
+	margin: 0 auto;
 }
 
-main#carousel {
-	grid-row: 2 / 3;
-	grid-column: 1 / 8;
-	width: 65vw;
-	height: 500px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
-	transform-style: preserve-3d;
-	perspective: 600px;
-	--items: 5;
-	--middle: 3;
-	--position: 1;
-	pointer-events: none;
+.carousel__slide {
+	height: 50%;
 }
 
-div.item {
+.carousel__viewport {
 	position: absolute;
-	width: 150px;
-	height: 200px;
-	--r: calc(var(--position) - var(--offset));
-	--abs: max(calc(var(--r) * -1), var(--r));
-	transition: all 0.25s linear;
-	transform: rotateY(calc(-10deg * var(--r)))
-		translateX(calc(-150px * var(--r)));
-	z-index: calc((var(--position) - var(--abs)));
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	counter-reset: item;
+	scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
 }
 
-div.item:nth-of-type(1) {
-	--offset: 1;
-	background-image: url("Pictures/Roos.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-div.item:nth-of-type(2) {
-	--offset: 2;
-	background-image: url("Pictures/Bloem.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-div.item:nth-of-type(3) {
-	--offset: 3;
-	background-image: url("Pictures/Kelk.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-div.item:nth-of-type(4) {
-	--offset: 4;
-	background-image: url("Pictures/Maddelief.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
+.carousel__slide {
+	position: relative;
+	flex: 0 0 100%;
+	width: 100%;
+	background-color: #f99;
+	counter-increment: item;
 }
 
-input:nth-of-type(1) {
-	grid-column: 2 / 3;
-	grid-row: 2 / 3;
-}
-input:nth-of-type(1):checked ~ main#carousel {
-	--position: 1;
+.carousel__slide:nth-child(even) {
+	background-color: #99f;
 }
 
-input:nth-of-type(2) {
-	grid-column: 3 / 4;
-	grid-row: 2 / 3;
-}
-input:nth-of-type(2):checked ~ main#carousel {
-	--position: 2;
-}
-
-input:nth-of-type(3) {
-	grid-column: 4 /5;
-	grid-row: 2 / 3;
-}
-input:nth-of-type(3):checked ~ main#carousel {
-	--position: 3;
+.carousel__slide:before {
+	content: counter(item);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -40%, 70px);
+	color: #fff;
+	font-size: 2em;
 }
 
-input:nth-of-type(4) {
-	grid-column: 5 / 6;
-	grid-row: 2 / 3;
-}
-input:nth-of-type(4):checked ~ main#carousel {
-	--position: 4;
+.carousel__snapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	scroll-snap-align: center;
 }

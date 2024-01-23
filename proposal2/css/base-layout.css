@@ -7,4 +7,6 @@ body {
 	background-color: #fbf8f3;
 	margin-left: 7%;
 	margin-right: 7%;
+	overflow-x: hidden;
+	overflow-x: auto;
 }
