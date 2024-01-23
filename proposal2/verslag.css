@@ -1,25 +1,12 @@
 .navigation {
-	display: flex;
-	justify-content: center;
-	padding-top: 12px;
-	font-size: 14px;
 	margin-bottom: 30px;
 }
 .navigation ul {
 	margin: 0;
 	padding: 0px;
 }
-.navigation ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-.navigation ul li a {
-	text-decoration: none;
-	color: #5f5642;
-}
 
 body {
-	background-color: #fbf8f3;
 	margin: 20px;
 }
 
@@ -80,9 +67,23 @@ progress {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-left: 0;
+	margin-bottom: 20px;
+	/*background-color: #d4b89d;
+	border-radius: 25px;
+	background-size: cover;*/
 }
-.divide li {
+.rapport .list .days .divide ul .btn-primary li {
 	display: block;
+	background-color: #d4b89d;
+	border-radius: 10px;
+	border: 10px;
+	padding: 10px;
+}
+.btn-primary {
+	padding: 0;
+}
+.btn-primary:hover {
+	padding: 0;
 }
 .days {
 	display: flex;
@@ -102,6 +103,7 @@ img {
 	margin-right: 0;
 	margin-left: 10px;
 	margin-right: -40px;
+	background-color: #fbf8f3;
 }
 /*tezien {
 	font-family: "houschka-rounded", sans-serif;
