@@ -1,49 +1,18 @@
-.header {
-	width: 100%;
-	height: 100px;
-	padding-top: 50px;
-}
-
 .hero {
 	display: flex;
+	flex-wrap: nowrap;
+	width: 72%;
+	margin: auto;
+	padding: 20px 0px;
 	justify-content: space-around;
+	gap: 30px
 }
 
-.missie {
-	position: relative;
+.hero div {
+	flex: 2;
 }
 
-.missie img {
-	width: 70%;
-	margin-top: 40px;
-	margin-left: 10px;
-}
-
-.missie h1 {
-	font-size: 24px;
-	margin-top: 0px;
-}
-
-.missie p {
-	position: absolute;
-	top: 10%;
-	left: 75%;
-	width: 30%;
-}
-
-.visie img {
-	width: 60%;
-	margin-top: 100px;
-	margin-left: 130px;
-}
-
-.visie p {
-	position: absolute;
-	top: 50%;
-	right: 37%;
-	width: 10%;
-}
-
-.tree img {
-	margin-right: 50px;
+.hero img {
+	width: 100%;
+	align-items: start;
 }
