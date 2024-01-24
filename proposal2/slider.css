@@ -2,6 +2,14 @@
 	width: 400px;
 	height: 400px;
 	margin: 0 auto;
+	position: relative;
+}
+
+@media screen and (max-width: 900px) {
+	.testContainer {
+		width: 150px;
+		height: 150px;
+	}
 }
 
 .hiddenImage {
@@ -12,41 +20,28 @@
 .hiddenImage img {
 	width: 100%;
 	object-fit: cover;
-	position: absolute;
 }
 
 .featured {
 	position: absolute;
-	background: url("images/bloem-final.jpg") no-repeat;
-	background-size: cover;
+	background: url("http://slm-assets1.secondlife.com/assets/3789237/lightbox/512x512%20PNG%20Landscape%20Texture%20-%20Dandelion%20Field.jpg")
+		no-repeat;
+	background-size: auto 100%;
+	width: 0;
+	height: 100%;
+	transition: width 0.3s ease;
+}
+
+.slider {
 	width: 100%;
-	height: 100%;
+	margin-top: 10px;
 }
 
-.reveal {
-	height: 100%;
-	border-left: 6px solid #555;
-	position: absolute;
-	right: 0;
-	cursor: col-resize;
-	font-size: 2.1rem;
-	font-weight: bold;
-	text-align: center;
-	line-height: 3.2rem;
-}
-
-.reveal:after {
-	content: "\2194";
-	display: block;
-	width: 50px;
-	height: 50px;
-	border: 2px solid #f1f1f1;
-	border-radius: 50%;
-	color: #f1f1f1;
-	background: #555;
-	position: absolute;
-	left: -30px;
-	top: 0;
-	bottom: 0;
-	margin: auto;
+.notice {
+	width: 25%;
+	margin: 2rem auto;
+	padding: 1rem;
+	background: #ffffe5;
+	border-radius: 1rem;
+	box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
