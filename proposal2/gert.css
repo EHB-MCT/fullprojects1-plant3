@@ -1,3 +1,11 @@
 .flex-container {
-	margin-top: 60px;
+	width: 60%;
+	position: absolute;
+	z-index: 2;
+}
+
+.fotogeert {
+	width: 20%;
+	position: relative;
+	z-index: 2;
 }
