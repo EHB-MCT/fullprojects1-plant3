@@ -1,18 +1,43 @@
-.flex-container {
-	margin-top: 2%;
-	width: 100%;
-	display: flex;
-	position: absolute;
-	z-index: 1;
+#parent {
+	position: relative;
+	height: 100vh;
+}
+
+.deadflowers,
+.fotogeert {
+	width: 70%;
 }
 
 .deadflowers {
-	order: 1; /* Set the order for deadflowers */
+	margin-left: 15%;
 }
 
 .fotogeert {
-	width: 60%;
-	position: relative;
-	order: 1;
-	z-index: 2; /* Increase the z-index to make sure it's on top of deadflowers */
+	position: absolute;
+	top: 44%;
+	left: 78%;
+	transform: translate(-50%, -50%);
+}
+
+.text1 {
+	position: absolute;
+	width: 14.5%;
+	top: 10%;
+	left: 15%;
+}
+
+.text2 {
+	position: absolute;
+	width: 20%;
+	top: 40%;
+	right: 8%;
+	float: right;
+}
+
+.text3 {
+	position: absolute;
+	width: 20%;
+	top: 66%;
+	right: 18%;
+	float: right;
 }
