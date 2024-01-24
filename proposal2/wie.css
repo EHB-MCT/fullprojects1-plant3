@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+body {
+	margin: 0;
+	height: 100vh;
+}
+
+svg {
+	width: 90%;
+	position: fixed;
+	top: 5%;
+	left: 5%;
+}
+
+section {
+	height: 100vh;
+	display: grid;
+	place-content: center;
+	font-family: "Bebas Neue";
+	font-size: 5rem;
+}
+
+section:nth-of-type(2) {
+	background: rgb(232, 227, 214);
+}
+=======
+>>>>>>> 5d28e3e260ae3322a02f3801577616eedfc37d50
