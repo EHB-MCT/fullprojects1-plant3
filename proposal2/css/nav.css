@@ -2,8 +2,8 @@
 .navigation {
 	display: flex;
 	justify-content: center;
-	padding-top: 12px;
-	font-size: 14px;
+	padding-top: 42px;
+	font-size: 16px;
 }
 
 .navigation ul {
@@ -19,4 +19,7 @@
 .navigation ul li a {
 	text-decoration: none;
 	color: #5f5642;
+}
+
+.navigation ul li a.button {
 }
