@@ -4,13 +4,6 @@
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 900px) {
-	.testContainer {
-		width: 150px;
-		height: 150px;
-	}
-}
-
 .hiddenImage {
 	height: 100%;
 	position: relative;
@@ -24,7 +17,7 @@
 
 .featured {
 	position: absolute;
-	background: url(images/bloem-final.jpg) no-repeat;
+	background: url("images/bloem-final.jpg") no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 100%;

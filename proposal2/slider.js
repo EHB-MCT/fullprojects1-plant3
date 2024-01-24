@@ -1,6 +1,5 @@
-$(document).ready(function () {
-	console.log("Script is running!");
-
+var $reveal = $(".hiddenImage .reveal"){
+    	console.log("Script is running!");
 	var $reveal = $(".reveal");
 	$reveal.draggable({
 		axis: "x",
@@ -14,8 +13,4 @@ $(document).ready(function () {
 			$(".featured").width(width + "%");
 		},
 	});
-
-	$(window).resize(function () {
-		$reveal.css("left", $(".featured").width() + "px");
-	});
-});
+};
