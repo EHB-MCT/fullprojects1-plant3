@@ -5,6 +5,7 @@ body {
 	font-weight: 500;
 	font-style: normal;
 	background-color: #fbf8f3;
+	overflow-x: hidden;
 	/* margin-left: 7%;
 	margin-right: 7%; */
 }
