@@ -98,11 +98,23 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
+<<<<<<< HEAD
+	max-width: 900px;
+=======
 	max-width: 750px;
+>>>>>>> 64d53840ccfdf47f0d0fdf94d44ebb1eaf7d1dfb
 	position: relative;
 	margin: auto;
 }
 
+<<<<<<< HEAD
+.slideshow-container img {
+	vertical-align: middle;
+	width: 100%;
+}
+
+=======
+>>>>>>> 64d53840ccfdf47f0d0fdf94d44ebb1eaf7d1dfb
 /* Next & previous buttons */
 .prev,
 .next {
@@ -173,6 +185,27 @@ img {
 	}
 }
 
+<<<<<<< HEAD
+div.numberText {
+	text-align: center;
+}
+
+.tanger h1,
+p {
+	text-align: center;
+}
+
+.tanger p {
+	margin-top: 0;
+}
+
+.tanger h1 {
+	margin-top: 100px;
+	margin-bottom: 0;
+}
+
+=======
+>>>>>>> 64d53840ccfdf47f0d0fdf94d44ebb1eaf7d1dfb
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
 
