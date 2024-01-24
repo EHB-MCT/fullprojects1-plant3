@@ -1,109 +1,20 @@
-.navigation {
-	margin-bottom: 30px;
-}
-.navigation ul {
-	margin: 0;
-	padding: 0px;
-}
-
-body {
-	margin: 20px;
-}
-
-h1 {
-	font-family: "baskerville-display-pt", serif;
-	font-weight: 400;
-	font-style: normal;
-	color: #5f5642;
-}
-
-h2 {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-	color: #d4b89d;
-}
-
-h3 {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-
-	color: #d4b89d;
-}
-
-h4 {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-	color: #d4b89d;
-}
-p {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: medium italic;
-	font-size: 14px;
-}
-
-body .rapport ul li {
-	display: contents;
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: medium italic;
-	font-size: 14px;
-}
-body .rapport ul li img {
-	height: 75px;
-}
-
-fieldset {
-	padding: 0.35em 0.75em 0.625em;
-}
-progress {
-	vertical-align: baseline;
-}
-.divide {
+.rapport {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-bottom: 20px;
-	/*background-color: #d4b89d;
-	border-radius: 25px;
-	background-size: cover;*/
-}
-.rapport .list .days .divide ul .btn-primary li {
-	display: block;
-	background-color: #d4b89d;
-	border-radius: 10px;
-	border: 10px;
-	padding: 10px;
-	margin-left: -40px;
-}
-.btn-primary {
-	padding: 0;
-}
-.btn-primary:hover {
-	padding: 0;
-}
-.days {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-}
-.list {
-	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 }
-img {
-	height: 80px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.vines {
-	height: 100%;
-	margin-right: 0;
-	margin-left: 10px;
-	margin-right: -40px;
-	background-color: #fbf8f3;
+
+.documents {
+	display: inline;
+
+	margin: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	padding: 35px;
+
+	background-image: url(Pictures/th-2981692090.jpeg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	justify-content: center;
 }
