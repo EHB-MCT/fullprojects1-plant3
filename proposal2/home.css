@@ -91,26 +91,30 @@ h2 {
 .mySlides {
 	display: none;
 }
-/* img {
-	vertical-align: middle;
-} */
 
-.mySlides.fade {
-	width: auto;
+img {
+	vertical-align: middle;
 }
 
 /* Slideshow container */
 .slideshow-container {
+<<<<<<< HEAD
 	max-width: 900px;
+=======
+	max-width: 750px;
+>>>>>>> 64d53840ccfdf47f0d0fdf94d44ebb1eaf7d1dfb
 	position: relative;
 	margin: auto;
 }
 
+<<<<<<< HEAD
 .slideshow-container img {
 	vertical-align: middle;
 	width: 100%;
 }
 
+=======
+>>>>>>> 64d53840ccfdf47f0d0fdf94d44ebb1eaf7d1dfb
 /* Next & previous buttons */
 .prev,
 .next {
@@ -145,7 +149,7 @@ h2 {
 }
 
 /* Caption text */
-.textSlider {
+.text {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -170,15 +174,18 @@ h2 {
 	animation-duration: 1.5s;
 }
 
+/* aie*/
 @keyframes fade {
 	from {
 		opacity: 0.4;
 	}
+
 	to {
 		opacity: 1;
 	}
 }
 
+<<<<<<< HEAD
 div.numberText {
 	text-align: center;
 }
@@ -197,26 +204,33 @@ p {
 	margin-bottom: 0;
 }
 
+=======
+>>>>>>> 64d53840ccfdf47f0d0fdf94d44ebb1eaf7d1dfb
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
+
 	.prev,
 	.next,
 	.text {
 		font-size: 11px;
 	}
 }
+
 div .slideshow-container {
 	margin-top: -15px;
-	background-color: rgb(251, 248, 243);
+	background-color: black;
 	width: 80%;
 }
+
 div.mySlides.fade {
-	background-color: rgb(251, 248, 243);
+	background-color: black;
 }
+
 .text {
 	font-size: 25px;
 	font-family: "Montserrat", sans-serif;
 }
+
 @media (max-width: 768px) {
 	.text {
 		font-size: 18px;
@@ -229,13 +243,16 @@ div.mySlides.fade {
 		font-size: 15px;
 		margin-left: -15px;
 	}
+
 	div .slideshow-container {
 		margin-top: -15px;
 		background-color: black;
 		width: 100%;
 	}
 }
+
 @media (min-width: 320px) {
+
 	.prev,
 	.next {
 		cursor: pointer;
