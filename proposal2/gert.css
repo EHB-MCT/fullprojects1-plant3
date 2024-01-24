@@ -29,6 +29,15 @@
 .text2 {
 	position: absolute;
 	width: 20%;
-	top: 45%;
+	top: 40%;
 	right: 8%;
+	float: right;
+}
+
+.text3 {
+	position: absolute;
+	width: 20%;
+	top: 66%;
+	right: 18%;
+	float: right;
 }
