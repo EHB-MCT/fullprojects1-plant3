@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="css/typo.css" />
 		<link rel="stylesheet" href="css/buttons.css" />
 		<link rel="stylesheet" href="home.css" />
+		<!-- <script type="module" src="index.js" defer></script> -->
 	</head>
 	<body>
 		<div class="wrapper">
@@ -60,7 +61,55 @@
 					<a href="#"><p class="button">Lees meer ....</p></a>
 				</div>
 			</div>
-			<div class="third"></div>
+			<div class="foto-introductie">
+				<div class="tanger">
+					<h1>EMPATHIE VOOR PLANTEN IS, PLANTBEWUSTZIJN</h1>
+					<p>
+						Plantempathie kan worden aangeleerd en geoefend, bijvoorbeeld door
+					</p>
+
+					<!-- open slideshow -->
+					<div class="slideshow-container">
+						<div class="mySlides fade">
+							<div class="numbertext">1 / 3</div>
+							<img src="images/bos.jpeg" style="width: 100%" />
+							<div class="text">Bossen bezoeken</div>
+						</div>
+
+						<div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="images/tuinieren.jpeg" style="width: 100%" />
+							<div class="text">
+								Tuinieren is ook een goede methode om je empathie voor planten
+								te ontwikkelen.
+							</div>
+						</div>
+
+						<div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img
+								src="images/verzorging huisplanten.jpeg"
+								style="width: 100%"
+							/>
+							<div class="text">
+								Het houden van kamerplanten, waarvan bewezen is dat het je
+								algehele welzijn verbetert
+							</div>
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">❮</a>
+						<a class="next" onclick="plusSlides(1)">❯</a>
+					</div>
+					<br />
+
+					<div style="text-align: center">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+					<!-- close slideshow -->
+				</div>
+			</div>
 			<div class="fourth">
 				<div class="textanatomy">
 					<h1>Anatomie van</h1>
@@ -71,5 +120,49 @@
 		</div>
 
 		<div class="wrapper"></div>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
+
+		<script>
+			let slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides((slideIndex += n));
+			}
+
+			function currentSlide(n) {
+				showSlides((slideIndex += n));
+			}
+
+			function showSlides(n) {
+				let i;
+				let slides = document.getElementsByClassName("mySlides");
+				let dots = document.getElementsByClassName("dot");
+				if (n > slides.length) {
+					slideIndex = 1;
+				}
+				if (n < 1) {
+					slideIndex = slides.length;
+				}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex - 1].style.display = "block";
+				dots[slideIndex - 1].className += " active";
+			}
+		</script>
 	</body>
 </html>
