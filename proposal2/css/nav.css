@@ -2,7 +2,6 @@
 .navigation {
 	display: flex;
 	justify-content: center;
-	padding-top: 42px;
 	font-size: 16px;
 }
 
@@ -21,5 +20,4 @@
 	color: #5f5642;
 }
 
-.navigation ul li a.button {
-}
+.navigation ul li a.button {}
