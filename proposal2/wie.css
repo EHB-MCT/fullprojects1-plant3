@@ -1,7 +1,7 @@
 /*wave-design*/
 .wave-header {
-	background: red;
-	color: red;
+	background: blue;
+	color: white;
 	text-align: center;
 	bottom: 0;
 }
@@ -16,12 +16,10 @@
 
 .wave-header svg {
 	bottom: 0;
-
 }
 
 .wave-upper {
-	background: red;
-
+	background: white;
 }
 
 svg {
