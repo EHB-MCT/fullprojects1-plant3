@@ -55,6 +55,7 @@ label input[type="radio"] {
 	font-weight: 300;
 	font-style: italic;
 	color: #d4b89d;
+	
 }
 
 ::-ms-input-placeholder {
@@ -74,3 +75,4 @@ label input[type="radio"] {
 	font-size: 100px; /* Set the desired font size for the specific element */
 	color: #415b01;
 }
+
