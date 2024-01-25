@@ -18,13 +18,13 @@
 	flex-direction: column;
 	flex: none;
 	inline-size: 50%;
+	margin-left: 15px;
 }
 
 .downloadsign {
 	width: 20px;
 	height: 20px;
-	margin-top: 100%;
-	margin-left: 100%;
+	margin: 100%;
 }
 
 .rapport {

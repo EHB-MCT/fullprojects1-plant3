@@ -3,6 +3,7 @@
 	height: 400px;
 	margin: 0 auto;
 }
+
 @media screen and (max-width: 900px) {
 	.testContainer {
 		width: 150px;
@@ -22,7 +23,7 @@
 }
 .featured {
 	position: absolute;
-	background: url("images/rose-buiten.jpg") no-repeat;
+	background: url("images/plswork\ versie.jpg") no-repeat;
 	background-size: auto 100%;
 	width: 100%;
 	height: 100%;
