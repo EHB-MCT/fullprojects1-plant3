@@ -35,9 +35,7 @@
 	text-align: center;
 }
 
-.navigation {
-	margin-top: 5px;
-}
+
 
 .second {
 	display: flex;
@@ -199,6 +197,7 @@ p {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
+
 	.prev,
 	.next,
 	.text {
@@ -242,6 +241,7 @@ div.mySlides.fade {
 }
 
 @media (min-width: 320px) {
+
 	.prev,
 	.next {
 		cursor: pointer;
