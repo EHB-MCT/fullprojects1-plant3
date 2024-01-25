@@ -1,20 +1,34 @@
+.body {
+	background-color: #fbf8f3;
+}
+.foto {
+	width: 200px;
+	margin: 10px;
+}
+.artikel {
+	background-color: white;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 700px;
+}
+.tekst {
+	display: flex;
+	flex-direction: column;
+	flex: none;
+	inline-size: 50%;
+}
+
+.downloadsign {
+	width: 20px;
+	height: 20px;
+	margin-top: 100%;
+	margin-left: 100%;
+}
+
 .rapport {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.documents {
-	display: inline;
-
-	margin: 50px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-
-	padding: 35px;
-
-	background-image: url(Pictures/th-2981692090.jpeg);
-	background-repeat: no-repeat;
-	background-size: 50%;
 	justify-content: center;
 }
