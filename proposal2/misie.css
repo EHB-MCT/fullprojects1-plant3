@@ -1,7 +1,5 @@
 .container {
 	display: flex;
-	width: 750px;
-	padding: 30px;
 	margin: auto;
 }
 
@@ -11,7 +9,8 @@
 
 .text {
 	text-align: justify;
-	padding: 35px;
+	background-color: #fbf8f3;
+	padding-right: 50px;
 }
 
 .text h1 {
