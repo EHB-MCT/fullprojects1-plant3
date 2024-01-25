@@ -257,3 +257,24 @@ div.mySlides.fade {
 		user-select: none;
 	}
 }
+
+/* tree animation */
+
+.hero {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 72%;
+	margin: auto;
+	padding: 20px 0px;
+	justify-content: space-around;
+	gap: 30px
+}
+
+.hero div {
+	flex: 2;
+}
+
+.hero img {
+	width: 100%;
+	align-items: start;
+}
