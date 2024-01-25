@@ -4,7 +4,7 @@
 }
 
 .container img {
-	width: 40%;
+	width: 10%;
 }
 
 .text {
@@ -18,3 +18,23 @@
 	text-transform: uppercase;
 	font-size: 25px;
 }
+.text-1 {
+	margin-top: 190px;
+	margin-right: 200px;
+}
+.missie { flex: 1; /* Distribute remaining space equally among image containers */
+    max-width: 400px; /* Set a maximum width for the image container */
+    margin-bottom: 20px; /* Add margin below each image container */
+}
+
+.visie { flex: 1; /* Distribute remaining space equally among image containers */
+    max-width: 600px; /* Set a maximum width for the image container */
+    margin-bottom: 20px; /* Add margin below each image container */
+}
+
+
+img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; /* Maintain the aspect ratio of the images */
+}
+
