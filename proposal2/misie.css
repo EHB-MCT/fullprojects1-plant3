@@ -1,40 +1,92 @@
+/* base-layout.css */
+
 .container {
 	display: flex;
 	margin: auto;
-}
+  }
+  
+  .container img {
+	max-width: 100%; /* Ensure images are responsive */
+  }
+  
 
-.container img {
-	width: 10%;
-}
-
-.text {
-	text-align: justify;
-	background-color: #fbf8f3;
-	padding-right: 50px;
-}
-
-.text h1 {
+  
+  .text h1 {
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 25px;
-}
-.text-1 {
-	margin-top: 190px;
-	margin-right: 200px;
-}
-.missie { flex: 1; /* Distribute remaining space equally among image containers */
-    max-width: 400px; /* Set a maximum width for the image container */
-    margin-bottom: 20px; /* Add margin below each image container */
-}
+  }
+  
+  .text10 {
+	position: relative;
+	top: -400px; /* Adjust the vertical position */
+    left: 10%; /* Adjust the horizontal position */
+	height: 100%;
+	width: 30%;
+	background-color: #fbf8f3	;
+	padding: 5px;
+	color: black;
+	padding-left: 30px;
+	
+  }
 
-.visie { flex: 1; /* Distribute remaining space equally among image containers */
-    max-width: 600px; /* Set a maximum width for the image container */
-    margin-bottom: 20px; /* Add margin below each image container */
-}
+  
+  .text20 {
+	position: relative;
+	top: -400px; /* Adjust the vertical position */
+    left: 60%; /* Adjust the horizontal position */
+	height: 100%;
+	width: 30%;
+	background-color: #fbf8f3;
+	padding: 5px;
+	color: black;
+	padding-left: 30px;
 
-
-img {
-    max-width: 100%; /* Ensure images don't exceed the width of their container */
-    height: auto; /* Maintain the aspect ratio of the images */
-}
-
+  }
+  
+  /* misie.css */
+  
+  .missie img,
+  .visie img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+  }
+  
+  .missie {
+	margin-bottom: 20px;
+	position: relative;
+	top: 250px; /* Adjust the vertical position */
+    left: 60%; /* Adjust the horizontal position */
+	height: 100%;
+	width: 30%;
+	background-color: #fbf8f3;
+	padding: 5px;
+	color: black;
+	padding-left: 30px;
+  }
+  .visie {
+	margin-bottom: 20px;
+	position: relative;
+	top: 250px; /* Adjust the vertical position */
+    left: 10%; /* Adjust the horizontal position */
+	height: 100%;
+	width: 30%;
+	background-color: #fbf8f3;
+	padding: 5px;
+	color: black;
+	padding-left: 30px;
+  }
+  
+  .narrow-width {
+	max-width: 600px;
+	margin: 0 auto;
+  }
+  
+  img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+ 
+  
