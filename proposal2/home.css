@@ -2,8 +2,6 @@
 	position: relative;
 }
 
-
-
 .lineart img {
 	max-width: 145%;
 	max-height: 145%;
@@ -36,8 +34,6 @@
 .citaat h2 {
 	text-align: center;
 }
-
-
 
 .second {
 	display: flex;
@@ -153,11 +149,10 @@ img {
 	text-align: center;
 	background-color: transparent;
 	margin: 0;
+	margin-top: 275px;
 }
 
 /* Number text (1/3 etc) */
-
-
 
 /* Fading animation */
 .fade {
@@ -196,7 +191,6 @@ p {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-
 	.prev,
 	.next,
 	.text {
@@ -240,7 +234,6 @@ div.mySlides.fade {
 }
 
 @media (min-width: 320px) {
-
 	.prev,
 	.next {
 		cursor: pointer;
@@ -259,6 +252,13 @@ div.mySlides.fade {
 }
 
 /* tree animation */
+
+.textanatomy {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
 
 .hero {
 	display: flex;
@@ -283,4 +283,20 @@ div.mySlides.fade {
 	width: 100%;
 	position: absolute;
 	top: 600px;
+}
+
+.textanatomy h1,
+p {
+	text-align: center;
+}
+
+.textanatomy p {
+	width: 80%;
+}
+
+.fourth {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 200px;
+	padding-bottom: 100px;
 }
