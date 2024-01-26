@@ -38,19 +38,17 @@
 .second {
 	display: flex;
 	/* margin-top: 100px; */
-}
+	align-items: center;
+	background-image: url("images/AdobeStock_490661458 (1).jpeg");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 200px 0;
 
-.text {
-	margin-top: 190px;
-	margin-right: 200px;
 }
 
 .second img {
-	align-items: center;
 	width: 100%;
-	margin-top: 100px;
-	margin-left: 200px;
-	justify-content: center;
 }
 
 .second h1,
@@ -65,16 +63,22 @@ h2 {
 .berger {
 	margin: 0;
 	margin-top: 4px;
-	margin-left: 125px;
 }
 
 .button {
 	margin-top: 30px;
-	margin-left: 150px;
 	color: #415b01;
-	border-radius: 15px;
-	padding: 10px 15px;
+	border-radius: 30px;
+	padding: auto;
 	background-color: white;
+	text-align: center;
+}
+
+.button:hover {
+	font-weight: 300;
+	font-style: bold;
+	color: #ffffff;
+	background-color: #415b01;
 }
 
 .third h2 {
@@ -143,14 +147,15 @@ img {
 	font-weight: 400;
 	font-size: 16px;
 	color: #605643;
-	padding: 8px 12px;
-	position: relative;
-	width: 100%;
-	text-align: center;
+
+	text-align: left;
 	background-color: transparent;
-	margin: 0;
-	margin-top: 275px;
+	margin-left: 30%;
+	background-color: yellow;
+	width: 50%;
 }
+
+
 
 /* Number text (1/3 etc) */
 
@@ -177,7 +182,7 @@ div.numberText {
 
 .tanger h1,
 p {
-	text-align: center;
+	text-align: left;
 }
 
 .tanger p {
@@ -191,6 +196,7 @@ p {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
+
 	.prev,
 	.next,
 	.text {
@@ -234,6 +240,7 @@ div.mySlides.fade {
 }
 
 @media (min-width: 320px) {
+
 	.prev,
 	.next {
 		cursor: pointer;
@@ -285,18 +292,12 @@ div.mySlides.fade {
 	top: 600px;
 }
 
-.textanatomy h1,
-p {
-	text-align: center;
-}
 
-.textanatomy p {
-	width: 80%;
-}
 
 .fourth {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 200px;
 	padding-bottom: 100px;
+	width: 1420, 75px;
 }
