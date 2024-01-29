@@ -299,3 +299,52 @@ div.mySlides.fade {
 	padding-bottom: 100px;
 	width: 1420, 75px;
 }
+
+/* footer.css */
+
+.site-footer {
+	background-color: #aaa88e;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+.footer-content {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.footer-category {
+	margin-right: 40px;
+}
+
+.footer-links {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.footer-links li {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.footer-links a {
+	text-decoration: none;
+	color: #605643;
+	font-weight: bold;
+	display: block;
+	transition: color 0.3s ease;
+}
+
+.copyright {
+	color: black;
+	margin-top: 20px;
+}
+
+.footer-links a:hover {
+	color: #fbf8f3;
+}
