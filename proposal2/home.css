@@ -311,7 +311,7 @@ div.mySlides.fade {
 }
 
 .footer-category {
-	margin-right: 40px;
+	margin-right: 60px;
 }
 
 .footer-links {
@@ -322,7 +322,7 @@ div.mySlides.fade {
 
 .footer-links li {
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .footer-links a {
@@ -333,9 +333,11 @@ div.mySlides.fade {
 	transition: color 0.3s ease;
 }
 
-.copyright {
-	color: black;
-	margin-top: 20px;
+.copyright {  
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 .footer-links a:hover {
