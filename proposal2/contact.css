@@ -1,7 +1,7 @@
 /* Reset some default browser styles */
 
 form {
-	max-width: 400px;
+	max-width: 800px;
 	margin: 0 auto;
 	background-color: #fbf8f3;
 	padding: 20px;
@@ -55,6 +55,7 @@ label input[type="radio"] {
 	font-weight: 300;
 	font-style: italic;
 	color: #d4b89d;
+	
 }
 
 ::-ms-input-placeholder {
@@ -74,3 +75,4 @@ label input[type="radio"] {
 	font-size: 100px; /* Set the desired font size for the specific element */
 	color: #415b01;
 }
+

@@ -11,6 +11,6 @@ body {
 }
 
 .wrapper {
-	margin-left: 7%;
-	margin-right: 7%;
+	width: 80%;
+	margin: 0 auto;
 }

@@ -4,25 +4,30 @@
 	margin: 0 auto;
 }
 
+@media screen and (max-width: 900px) {
+	.testContainer {
+		width: 150px;
+		height: 150px;
+	}
+}
 .hiddenImage {
 	height: 100%;
 	position: relative;
 }
-
 .hiddenImage img {
 	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
 	object-fit: cover;
 	position: absolute;
 }
-
 .featured {
 	position: absolute;
-	background: url("images/bloem-final.jpg") no-repeat;
-	background-size: cover;
+	background: url("images/plswork\ versie.jpg") no-repeat;
+	background-size: auto 100%;
 	width: 100%;
 	height: 100%;
 }
-
 .reveal {
 	height: 100%;
 	border-left: 6px solid #555;
@@ -34,7 +39,6 @@
 	text-align: center;
 	line-height: 3.2rem;
 }
-
 .reveal:after {
 	content: "\2194";
 	display: block;

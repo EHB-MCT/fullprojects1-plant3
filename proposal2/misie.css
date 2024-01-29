@@ -1,18 +1,103 @@
-.hero {
+/* base-layout.css */
+
+.container {
 	display: flex;
-	flex-wrap: nowrap;
-	width: 72%;
 	margin: auto;
-	padding: 20px 0px;
-	justify-content: space-around;
-	gap: 30px;
 }
 
-.hero div {
-	flex: 2;
+.container img {
+	max-width: 100%; /* Ensure images are responsive */
 }
 
-.hero img {
+.text h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.text10 {
+	position: relative;
+	top: -400px; /* Adjust the vertical position */
+	left: 10%; /* Adjust the horizontal position */
+	height: 100%;
+	width: 30%;
+	background-color: #fbf8f3;
+	padding: 5px;
+	color: black;
+	padding-left: 30px;
+}
+
+.text20 {
+	position: relative;
+	top: -400px; /* Adjust the vertical position */
+	left: 60%; /* Adjust the horizontal position */
+	height: 100%;
+	width: 30%;
+	background-color: #fbf8f3;
+	padding: 5px;
+	color: black;
+	padding-left: 30px;
+}
+
+/* misie.css */
+
+.missie img,
+.visie img {
 	width: 100%;
-	align-items: start;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.missie {
+	margin-bottom: 20px;
+	position: relative;
+	top: 250px; /* Adjust the vertical position */
+	left: 60%; /* Adjust the horizontal position */
+	height: 100%;
+	width: 30%;
+	background-color: #fbf8f3;
+	padding: 5px;
+	color: black;
+	padding-left: 30px;
+}
+.visie {
+	margin-bottom: 20px;
+	position: relative;
+	top: 250px; /* Adjust the vertical position */
+	left: 10%; /* Adjust the horizontal position */
+	height: 100%;
+	width: 30%;
+	background-color: #fbf8f3;
+	padding: 5px;
+	color: black;
+	padding-left: 30px;
+}
+
+.narrow-width {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+.wave-header {
+	text-align: center;
+	position: relative;
+	z-index: 1; /* Set a lower z-index to position it behind the slider */
+	width: 100%;
+	background-color: #fbf8f3;
+	margin-bottom: -5px;
+}
+
+.wave-head {
+	text-align: center;
+	position: relative;
+	z-index: 1; /* Set a lower z-index to position it behind the slider */
+	width: 100%;
+	background-color: #d4b89d;
+}
+.flex {
+	background-color: #d4b89d;
 }

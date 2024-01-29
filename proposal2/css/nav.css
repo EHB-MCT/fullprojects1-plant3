@@ -1,10 +1,19 @@
 /* NAVIGATION */
+
+body {
+	overflow-y: scroll;
+	/* always show scrollbar */
+}
+
 .navigation {
 	display: flex;
 	justify-content: center;
-	padding-top: 12px;
-	font-size: 14px;
+	font-size: 16px;
+	margin-top: 10px;
+	border-bottom: #415b01
 }
+
+
 
 .navigation ul {
 	margin: 0;
@@ -13,10 +22,28 @@
 
 .navigation ul li {
 	display: inline-block;
+
 	margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+	margin-right: 0;
 }
 
 .navigation ul li a {
 	text-decoration: none;
 	color: #5f5642;
+
+}
+
+.navigation ul li a:hover {
+	color: #415b01;
+	border-bottom: 2px solid #415b01;
+
+
+}
+
+.navigation ul li a.active {
+	border-bottom: 2px solid #415b01;
+
 }
