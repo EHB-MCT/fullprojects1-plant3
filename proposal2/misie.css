@@ -1,5 +1,8 @@
 /* base-layout.css */
 
+body {
+}
+
 .container {
 	display: flex;
 	margin: auto;
@@ -15,46 +18,13 @@
 	font-size: 25px;
 }
 
-.text10 {
-	position: relative;
-	top: -400px; /* Adjust the vertical position */
-	left: 10%; /* Adjust the horizontal position */
-	height: 100%;
-	width: 30%;
-	background-color: #fbf8f3;
-	padding: 5px;
-	color: black;
-	padding-left: 30px;
-}
-
-.text20 {
-	position: relative;
-	top: -400px; /* Adjust the vertical position */
-	left: 60%; /* Adjust the horizontal position */
-	height: 100%;
-	width: 30%;
-	background-color: #fbf8f3;
-	padding: 5px;
-	color: black;
-	padding-left: 30px;
-}
-
-/* misie.css */
-
-.missie img,
-.visie img {
-	width: 100%;
-	height: auto;
-	margin-bottom: 10px;
-}
-
 .missie {
 	margin-bottom: 20px;
 	position: relative;
 	top: 250px; /* Adjust the vertical position */
-	left: 60%; /* Adjust the horizontal position */
+	left: 30%; /* Adjust the horizontal position */
 	height: 100%;
-	width: 30%;
+	width: 50%;
 	background-color: #fbf8f3;
 	padding: 5px;
 	color: black;
@@ -64,18 +34,18 @@
 	margin-bottom: 20px;
 	position: relative;
 	top: 250px; /* Adjust the vertical position */
-	left: 10%; /* Adjust the horizontal position */
+	left: 5%; /* Adjust the horizontal position */
 	height: 100%;
-	width: 30%;
-	background-color: #fbf8f3;
+	width: 50%;
+	background-color: #d4b89d;
 	padding: 5px;
 	color: black;
-	padding-left: 30px;
+	padding-left: 35px;
+	margin-left: 12%;
 }
 
 .narrow-width {
-	max-width: 600px;
-	margin: 0 auto;
+	max-width: 500px;
 }
 
 img {
@@ -84,20 +54,65 @@ img {
 }
 .wave-header {
 	text-align: center;
-	position: relative;
 	z-index: 1; /* Set a lower z-index to position it behind the slider */
 	width: 100%;
 	background-color: #fbf8f3;
-	margin-bottom: -5px;
+	margin-top: -5%;
 }
 
 .wave-head {
 	text-align: center;
-	position: relative;
 	z-index: 1; /* Set a lower z-index to position it behind the slider */
 	width: 100%;
 	background-color: #d4b89d;
+	margin-top: -10px;
+	height: max-content;
 }
 .flex {
 	background-color: #d4b89d;
 }
+.hero1 {
+	margin-top: -15%;
+}
+
+.hero2 {
+	margin-top: -22%;
+}
+
+.foto1 {
+	margin-left: 20%;
+	height: 300px;
+}
+
+.foto2 {
+	margin-left: 160%;
+	margin-right: 0;
+	padding-right: 0;
+	height: 300px;
+	padding-bottom: 10%;
+}
+p {
+	padding: 5px;
+	color: black;
+	top: -400px; /* Adjust the vertical position */
+	height: 100%;
+}
+/*.text10 {
+	left: 10%; /* Adjust the horizontal position */
+/*width: 30%;
+	padding-left: 30px;
+	margin-left: 10%;
+}
+
+.text20 {
+	left: 60%; /* Adjust the horizontal position */
+/*width: 50%;
+	padding-left: 30px;
+}*/
+
+/*body {
+	background-image: url(Pictures/top.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0%;
+}*/
