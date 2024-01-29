@@ -1,25 +1,19 @@
-#parent {
-	position: relative;
-	height: 100vh;
-}
-
-.deadflowers,
-.fotogeert {
-	width: 70%;
-}
-
-.deadflowers {
-	margin-left: 15%;
-}
-
-.fotogeert {
+.bloemenachtergrond img {
+	width: 1200px; /* Set a specific width */
+	height: 800px; /* Set a specific height */
 	position: absolute;
-	top: 44%;
-	left: 78%;
-	transform: translate(-50%, -50%);
+	top: 0;
+	left: 0;
 }
 
-.text1 {
+.fotogeert img {
+	width: 400px;
+	height: auto;
+	position: relative;
+	z-index: 1; /* Ensure Gert Ausloos' image is on top */
+}
+
+.foto .text1 {
 	position: absolute;
 	width: 14.5%;
 	top: 10%;
