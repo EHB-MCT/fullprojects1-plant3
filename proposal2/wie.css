@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wave-header {
 	color: white;
 	text-align: center;
@@ -34,3 +35,5 @@ svg {
 	position: absolute;
 	z-index: -1; /* Set a lower z-index to position it behind the slider */
 }
+=======
+>>>>>>> fb0a8a05a309ee57d097037e2fbbc86e4f3307b5
