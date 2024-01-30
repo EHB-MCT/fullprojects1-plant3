@@ -334,7 +334,7 @@ div.mySlides.fade {
 
 .footer-links a {
 	text-decoration: none;
-	color: #605643;
+	color: #fbf8f3;
 	font-weight: bold;
 	display: block;
 	transition: color 0.3s ease;
@@ -348,7 +348,7 @@ div.mySlides.fade {
 }
 
 .footer-links a:hover {
-	color: #fbf8f3;
+	color: #605643;
 }
 /* Existing styles... */
 
@@ -368,4 +368,7 @@ div.mySlides.fade {
 .subscribe-button:hover {
     background-color: #aa946b;
 	font-size: large;
+}
+.footertextcolor{
+	color: #fbf8f3;
 }
