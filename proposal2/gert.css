@@ -1,10 +1,9 @@
-.tweefotos {
+.twopictures {
 	display: flex;
 }
 
 .gertpicture img {
 	width: 300px;
-
 	margin-left: 200px;
 	position: absolute;
 	top: 0;
@@ -13,12 +12,17 @@
 
 .backgroundflowers img {
 	margin-top: 200px;
-	width: 300px;
+	width: 250px;
 	margin-right: 400px;
 }
 
+div.backgroundflowers img {
+	margin: 0;
+	margin-top: 250px;
+}
+
 img.fotogeert {
-	width: 450px;
+	width: 400px;
 	height: auto;
 	margin-left: 10px;
 	position: relative;
@@ -27,11 +31,16 @@ img.fotogeert {
 	margin-bottom: 0px;
 }
 
+.gerttitle h1 {
+	margin-top: 15px;
+	margin-right: 650px;
+}
+
 .text1 {
-	margin-left: 710px;
+	margin-left: 609px;
 	position: absolute;
-	margin-top: 135px;
-	width: 14.5%;
+	margin-top: 185px;
+	width: 20%;
 	top: 10%;
 	left: 15%;
 }
@@ -39,17 +48,9 @@ img.fotogeert {
 .text2 {
 	position: absolute;
 	margin-top: 150px;
-	margin-right: 155px;
+	margin-right: 260px;
 	width: 20%;
 	top: 40%;
 	right: 8%;
-	float: right;
-}
-
-.text3 {
-	position: absolute;
-	width: 20%;
-	top: 66%;
-	right: 18%;
 	float: right;
 }
