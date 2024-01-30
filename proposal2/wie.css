@@ -1,72 +1,97 @@
-/* Basic styling for the member card section */
+a {
+	color: #605643;
+}
+
+.h1 {
+	position: center;
+}
+
 .members {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
 
-/* Styling for each member card */
 .member-card {
 	width: 300px;
 	height: 150px;
-	margin: 20px;
-	border: 2px solid #d4b89d;
+	margin: 10px;
+	border: solid #d4b89d;
 	overflow: hidden;
 	transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 	position: relative;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .member-card:hover {
-	background-color: #d4b89d; /* Dark green background on hover */
 	transform: scale(1.05);
+	background-color: #d4b89d;
+	color: #605643;
 }
 
-/* Styling for the image container */
-.image-container {
-	position: relative;
-}
-
-/* Styling for the profile picture */
 .profile-picture {
 	width: 100%;
 	height: auto;
 	display: block;
 }
-.member-card .flower {
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
-	width: 20px;
-	height: 20px;
-	transition: opacity 0.3s ease-in-out; /* Add transition property */
-}
 
-/* Hide flower on hover */
-.member-card:hover .flower {
-	opacity: 0;
-}
-
-/* Styling for the flower icon */
-.flower {
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
-	width: 20px;
-	height: 20px;
-}
-
-/* Styling for the content container */
 .content-container {
 	padding: 10px;
 }
 
-/* Styling for the member's title (name) */
 .title {
 	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: bold;
 }
 
-/* Styling for the job title */
 .job-title {
 	font-style: italic;
-	color: #eee; /* Light beige text color */
+	color: #fbf8f3;
+}
+
+.group-picture {
+	width: 80%;
+	height: auto;
+	display: block;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.member-card .button {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background-color: #fbf8f3;
+	color: #605643;
+	padding: 5px 10px;
+}
+
+.member-card .button:hover {
+	color: #415b01;
+	font-weight: bold;
+}
+
+.quote-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.quote {
+	position: relative;
+	font-size: 80px;
+	padding: 20px;
+	margin: 50px;
+	background-color: #fbf8f3;
+	max-width: 80%;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.quote p {
+	font-size: 18px;
+	text-align: center;
+	font-weight: bolder;
 }
