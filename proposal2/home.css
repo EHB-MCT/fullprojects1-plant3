@@ -333,11 +333,11 @@ div.mySlides.fade {
 	transition: color 0.3s ease;
 }
 
-.copyright {  
-    color: black;
-    margin-top: 20px;
-    text-align: center;
-    width: 100%;
+.copyright {
+	color: black;
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
 }
 
 .footer-links a:hover {
