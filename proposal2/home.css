@@ -285,11 +285,21 @@ div.mySlides.fade {
 
 /* footer.css */
 
+<<<<<<< HEAD
 /* .site-footer {
 	background-color: #d4b89d;
+=======
+.site-footer {
+	background-color: #605643;
+>>>>>>> 71e39f3439b02fc854d188e1780b88167faaaf27
 	color: #fff;
-	padding: 0 200px;
+	padding: 20 0px;
 	text-align: left;
+}
+.footer-container {
+    max-width: 80%;
+    margin: 0 auto;
+    bottom: 0;
 }
 
 .footer-content {
@@ -301,8 +311,9 @@ div.mySlides.fade {
 }
 
 .footer-category {
-	flex: 1;
-	margin-top: 20px;
+	
+	margin-top: 5%;
+	
 }
 
 .footer-links {
@@ -318,13 +329,15 @@ div.mySlides.fade {
 
 .footer-links a {
 	text-decoration: none;
-	color: #605643;
+	color: #fbf8f3;
 	font-weight: bold;
 	display: block;
 	transition: color 0.3s ease;
+	
 }
 
 .copyright {
+<<<<<<< HEAD
 	color: black;
 	margin-top: 20px;
 	text-align: center;
@@ -334,3 +347,37 @@ div.mySlides.fade {
 .footer-links a:hover {
 	color: #fbf8f3;
 } */
+=======
+	color: #fff;
+	margin-top: 2%;
+	text-align: center;
+	width: 100%;
+	margin-left: 2%;
+}
+
+.footer-links a:hover {
+	color: #605643;
+}
+/* Existing styles... */
+
+.subscribe-button {
+    background-color: #d4b89d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}	
+
+.subscribe-button:hover {
+    background-color: #aa946b;
+	font-size: large;
+}
+.footertextcolor{
+	color: #fbf8f3;
+}
+>>>>>>> 71e39f3439b02fc854d188e1780b88167faaaf27
