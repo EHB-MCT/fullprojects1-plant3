@@ -297,13 +297,13 @@ div.mySlides.fade {
 /* footer.css */
 
 .site-footer {
-	background-color: #d4b89d;
+	background-color: #605643;
 	color: #fff;
 	padding: 20 0px;
 	text-align: left;
 }
 .footer-container {
-    max-width: 1200px;
+    max-width: 80%;
     margin: 0 auto;
     bottom: 0;
 }
@@ -311,14 +311,15 @@ div.mySlides.fade {
 .footer-content {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	text-align: left;
 	padding-left: 20px;
 }
 
 .footer-category {
 	
-	margin-top: 20px;
+	margin-top: 5%;
+	
 }
 
 .footer-links {
@@ -338,13 +339,15 @@ div.mySlides.fade {
 	font-weight: bold;
 	display: block;
 	transition: color 0.3s ease;
+	
 }
 
 .copyright {
-	color: black;
-	margin-top: 20px;
+	color: #fff;
+	margin-top: 2%;
 	text-align: center;
 	width: 100%;
+	margin-left: 2%;
 }
 
 .footer-links a:hover {
