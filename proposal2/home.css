@@ -305,20 +305,22 @@ div.mySlides.fade {
 .site-footer {
 	background-color: #d4b89d;
 	color: #fff;
-	padding: 20px 0;
+	padding: 0 200px;
 	text-align: left;
 }
 
 
 .footer-content {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	text-align: left;
 	padding-left: 20px;
 }
 
 .footer-category {
-	margin-right: 60px;
+	flex: 1;
+	margin-top: 20px;
 }
 
 .footer-links {
@@ -328,7 +330,7 @@ div.mySlides.fade {
 }
 
 .footer-links li {
-	display: block;
+	display: block;		
 	margin-bottom: 20px;
 }
 
