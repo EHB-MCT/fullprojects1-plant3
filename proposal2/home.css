@@ -26,64 +26,59 @@
 	margin-bottom: 50px;
 }
 
-.slogan h1 {
+/* .slogan h1 {
 	margin-right: 50px;
 	text-align: end;
+} */
+
+.quote h2 {
+	text-align: center;
+	padding-top: 65px;
 }
 
-.citaat h2 {
-	text-align: center;
+img.test {
+	width: 78%;
 }
 
 .second {
 	display: flex;
-	/* margin-top: 100px; */
 	align-items: center;
-	background-image: url("images/homepage1.jpg");
-	background-size: 90%;
+	/*background-image: url("images/homepage1.jpg");*/
+	/* background-size: 78%; */
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding: 350px 0px;
 }
 
-.second img {
-	width: 100%;
-}
-
 .second h1,
 h2 {
-	margin: 0;
+	margin-bottom: 0;
+	text-align: end;
+}
+
+.plantblindness h2 {
+	margin-top: 0;
+	margin-right: 68px;
 }
 
 .second p {
-	margin-bottom: 0;
+	text-align: left;
+	margin-left: 35px;
+}
+.plantblindness a {
+	margin-left: 35px;
 }
 
 .berger {
 	margin: 0;
 	margin-top: 4px;
+	padding-bottom: 15px;
 }
 
-.button {
-	margin-top: 30px;
-	color: #415b01;
-	border-radius: 30px;
-	padding: auto;
-	background-color: white;
-	text-align: center;
-}
-
-.button:hover {
-	font-weight: 300;
-	font-style: bold;
-	color: #ffffff;
-	background-color: #415b01;
-}
-
-.third h2 {
+/* .third h2 {
 	margin-left: 16%;
 	margin-top: 120px;
-}
+} */
 
 /* caroussel */
 
@@ -95,9 +90,8 @@ img {
 	vertical-align: middle;
 }
 
-/* Slideshow container */
 .slideshow-container {
-	max-width: 900px;
+	max-width: 750px;
 	position: relative;
 	margin: auto;
 }
@@ -131,7 +125,7 @@ img {
 /* Position the "next button" to the right */
 .next {
 	right: 0;
-	border-radius: 3px 0 0 3px;
+	/* border-radius: 3px 0 0 3px; */
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -140,8 +134,7 @@ img {
 	background-color: #fbf8f3;
 }
 
-/* Caption text */
-.text {
+/* Caption text .text {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
@@ -151,7 +144,7 @@ img {
 	background-color: transparent;
 	margin-left: 80%;
 	width: 50%;
-}
+} */
 
 /* Number text (1/3 etc) */
 
@@ -161,7 +154,6 @@ img {
 	animation-duration: 1.5s;
 }
 
-/* aie*/
 @keyframes fade {
 	from {
 		opacity: 0.4;
@@ -176,18 +168,20 @@ div.numberText {
 	text-align: center;
 }
 
-.tanger h1,
+.plantscaroussel h1,
+h3,
 p {
-	text-align: left;
+	text-align: center;
 }
 
-.tanger p {
-	margin-top: 0;
+.plantscaroussel p {
+	margin-top: 0px;
+	margin-bottom: 25px;
 }
 
-.tanger h1 {
+.plantscaroussel h1 {
 	margin-top: 100px;
-	margin-bottom: 0;
+	margin-bottom: 6px;
 }
 
 /* On smaller screens, decrease text size */
@@ -208,11 +202,6 @@ div .slideshow-container {
 div.mySlides.fade {
 	background-color: #fbf8f3;
 }
-
-/* .text {
-	font-size: 25px;
-	font-family: "Montserrat", sans-serif;
-} */
 
 @media (max-width: 768px) {
 	.text {
@@ -254,13 +243,13 @@ div.mySlides.fade {
 
 /* tree animation */
 
-.textanatomy {
+/* .textanatomy {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 50%;
-}
-
+} */
+/* 
 .hero {
 	display: flex;
 	flex-wrap: nowrap;
@@ -292,11 +281,11 @@ div.mySlides.fade {
 	padding: 0 200px;
 	padding-bottom: 100px;
 	width: 1420, 75px;
-}
+} */
 
 /* footer.css */
 
-.site-footer {
+/* .site-footer {
 	background-color: #d4b89d;
 	color: #fff;
 	padding: 0 200px;
@@ -323,7 +312,7 @@ div.mySlides.fade {
 }
 
 .footer-links li {
-	display: block;		
+	display: block;
 	margin-bottom: 20px;
 }
 
@@ -335,13 +324,13 @@ div.mySlides.fade {
 	transition: color 0.3s ease;
 }
 
-.copyright {  
-    color: black;
-    margin-top: 20px;
-    text-align: center;
-    width: 100%;
+.copyright {
+	color: black;
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
 }
 
 .footer-links a:hover {
 	color: #fbf8f3;
-}
+} */
