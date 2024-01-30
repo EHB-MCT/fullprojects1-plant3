@@ -1,26 +1,36 @@
-#parent {
-	position: relative;
-	height: 100vh;
+.tweefotos {
+	display: flex;
 }
 
-.deadflowers,
-.fotogeert {
-	width: 70%;
-}
+.gertpicture img {
+	width: 300px;
 
-.deadflowers {
-	margin-left: 15%;
-}
-
-.fotogeert {
+	margin-left: 200px;
 	position: absolute;
-	top: 44%;
-	left: 78%;
-	transform: translate(-50%, -50%);
+	top: 0;
+	left: 0;
+}
+
+.backgroundflowers img {
+	margin-top: 200px;
+	width: 300px;
+	margin-right: 400px;
+}
+
+img.fotogeert {
+	width: 450px;
+	height: auto;
+	margin-left: 10px;
+	position: relative;
+	z-index: 1; /* Ensure Gert Ausloos' image is on top */
+	margin-top: 100px;
+	margin-bottom: 0px;
 }
 
 .text1 {
+	margin-left: 710px;
 	position: absolute;
+	margin-top: 135px;
 	width: 14.5%;
 	top: 10%;
 	left: 15%;
@@ -28,6 +38,8 @@
 
 .text2 {
 	position: absolute;
+	margin-top: 150px;
+	margin-right: 155px;
 	width: 20%;
 	top: 40%;
 	right: 8%;
