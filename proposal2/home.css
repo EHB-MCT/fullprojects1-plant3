@@ -126,9 +126,6 @@ img {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
-.next:hover {
-	background-color: #000000;
-}
 
 /* Caption text .text {
 	font-family: "houschka-rounded", sans-serif;
@@ -288,7 +285,7 @@ div.mySlides.fade {
 }
 
 .copyright {
-	color: black;
+	color: #000000;
 	margin-top: 20px;
 	text-align: center;
 	width: 100%;
@@ -344,8 +341,8 @@ div.mySlides.fade {
 	}
 }
 
-/*responsief mobiel*/
-@media (max-width: 320px) {}
+/*responsief 1 */
+@media (max-width: 1250px) {}
 
-/*responsief tablet*/
-@media (max-width: 320px) {}
+/*responsief 2 */
+@media (max-width: 720px) {}
