@@ -69,11 +69,31 @@
 }
 
 .footer-links a:hover {
-	color: #605643;
+	color: #d4b89d;
 }
 /* Existing styles... */
 
 
 .footertextcolor {
 	color: #fbf8f3;
+}
+.button2 {
+	font-family: "houschka-rounded", sans-serif;
+    margin-top: 30px;
+	color: #fbf8f3;
+	border-radius: 30px;
+	padding: 10px 25px;
+	background-color: #415b01;
+}
+
+
+
+.button2:hover {
+    font-family: "houschka-rounded", sans-serif;
+	font-weight: 300;
+	font-style: bold;
+	color: #fbf8f3;
+	z-index: 500;
+	background-color: #aaa88e;
+
 }
