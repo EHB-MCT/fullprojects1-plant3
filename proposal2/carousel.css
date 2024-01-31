@@ -17,10 +17,6 @@
 	transform: scale(1);
 }
 
-body {
-	margin: 80px 0 0 0;
-}
-
 .video-section .owl-item {
 	-webkit-backface-visibility: hidden;
 	-webkit-transform: translateZ(0) scale(1, 1);
