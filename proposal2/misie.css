@@ -24,7 +24,7 @@ html {
 	padding-left: 38px;
 }
 
-.missie {
+.mission {
 	margin-bottom: 20px;
 	position: relative;
 	top: 250px; /* Adjust the vertical position */
@@ -36,7 +36,7 @@ html {
 	color: black;
 	padding-left: 20px;
 }
-.visie {
+.vision {
 	margin-bottom: 20px;
 	position: relative;
 	top: 250px; /* Adjust the vertical position */
@@ -57,12 +57,14 @@ html {
 img {
 	height: auto;
 }
+
 .wave-header {
 	text-align: center;
 	z-index: 1; /* Set a lower z-index to position it behind the slider */
 	width: 100%;
 	background-color: #fbf8f3;
 	margin-top: -5%;
+	top: -5px;
 }
 
 .wave-head {
@@ -70,9 +72,10 @@ img {
 	z-index: 1; /* Set a lower z-index to position it behind the slider */
 	width: 100%;
 	background-color: #d4b89d;
-	margin-top: -10px;
+	margin-top: -7px;
 	height: max-content;
 }
+
 .flex {
 	background-color: #d4b89d;
 	width: 100%;
@@ -85,7 +88,7 @@ img {
 	margin-top: -22%;
 }
 
-.foto1 {
+.photo1 {
 	height: 300px;
 	width: 240px;
 	display: flex;
@@ -93,12 +96,11 @@ img {
 	margin-left: 170px;
 }
 
-.foto2 {
+.photo2 {
 	margin-left: 160%;
-	margin-right: 30%;
 	padding-right: 0;
 	height: 300px;
-	padding-bottom: 10%;
+	padding-bottom: 11%;
 }
 p {
 	padding: 5px;
@@ -132,7 +134,7 @@ p {
 		margin-bottom: 0px;
 		padding-bottom: 0px;
 	}
-	.foto1 {
+	.photo1 {
 		margin-left: 10%;
 		margin-top: -10px;
 		padding-bottom: 30px;
@@ -141,16 +143,16 @@ p {
 	.hero1 {
 		margin-top: -20%;
 	}
-	.missie {
+	.mission {
 		width: 500px;
 		margin-bottom: 0;
 		left: 200px;
 	}
-	.visie {
-		margin-left: 0;
+	.vision {
+		margin-left: 20%;
 	}
-	.foto2 {
-		margin-left: 100%;
+	.photo2 {
+		margin-left: 150%;
 	}
 }
 @media screen and (max-width: 1020px) {
@@ -170,7 +172,7 @@ p {
 		align-items: center;
 		margin-top: 20px;
 	}
-	.missie {
+	.mission {
 		margin-bottom: 0;
 		position: sticky;
 		margin-top: 0;
@@ -182,10 +184,10 @@ p {
 		justify-content: center;
 		width: 600px;
 	}
-	.foto1 {
+	.photo1 {
 		margin-left: 0;
 	}
-	.foto2 {
+	.photo2 {
 		margin-left: 0;
 		margin-top: 150px;
 		margin-bottom: 0;
@@ -198,7 +200,7 @@ p {
 		align-items: center;
 	}
 
-	.visie {
+	.vision {
 		left: 0;
 		width: 600px;
 		top: 0;
@@ -223,7 +225,7 @@ p {
 		align-items: center;
 		margin-top: 20px;
 	}
-	.missie {
+	.mission {
 		margin-bottom: 0;
 		position: sticky;
 		margin-top: 0;
@@ -235,12 +237,12 @@ p {
 		justify-content: center;
 		width: 100%;
 	}
-	.foto1 {
+	.photo1 {
 		margin-left: 0;
 		width: 250px;
 		height: auto;
 	}
-	.foto2 {
+	.photo2 {
 		margin-left: 0;
 		margin-top: 100px;
 		margin-bottom: 0;
@@ -253,7 +255,7 @@ p {
 		align-items: center;
 	}
 
-	.visie {
+	.vision {
 		left: 0;
 		width: 100%;
 		top: 0;
