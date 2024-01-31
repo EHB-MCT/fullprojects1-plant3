@@ -233,7 +233,7 @@ div.mySlides.fade {
 	width: 100%;
 	position: absolute;
 	top: 480px;
-	background-color: red;
+	z-index: -200;
 }
 
 .fourth {
