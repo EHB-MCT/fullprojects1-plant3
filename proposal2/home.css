@@ -53,13 +53,9 @@ img.test {
 .second h1,
 h2 {
 	margin-bottom: 0;
-	text-align: end;
 }
 
-.plantblindness h2 {
-	margin-top: 0;
-	margin-right: 68px;
-}
+
 
 .second p {
 	text-align: left;
