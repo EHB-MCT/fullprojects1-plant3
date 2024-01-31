@@ -33,7 +33,7 @@
 
 .quote2 h2 {
 	text-align: center;
-	padding-top: 65px;
+	padding-top: 35px;
 	padding-bottom: 65px;
 }
 
@@ -53,21 +53,21 @@ img.test {
 .second h1,
 h2 {
 	margin-bottom: 0;
-	text-align: end;
 }
 
-.plantblindness h2 {
-	margin-top: 0;
-	margin-right: 68px;
-}
+
 
 .second p {
 	text-align: left;
-	margin-left: 35px;
 }
 
 .plantblindness a {
 	margin-left: 35px;
+}
+
+.plantblindness {
+	padding-left: 35px;
+
 }
 
 .berger {
@@ -126,9 +126,6 @@ img {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
-.next:hover {
-	background-color: #000000;
-}
 
 /* Caption text .text {
 	font-family: "houschka-rounded", sans-serif;
@@ -236,6 +233,7 @@ div.mySlides.fade {
 	width: 100%;
 	position: absolute;
 	top: 480px;
+	background-color: red;
 }
 
 .fourth {
@@ -288,7 +286,7 @@ div.mySlides.fade {
 }
 
 .copyright {
-	color: black;
+	color: #000000;
 	margin-top: 20px;
 	text-align: center;
 	width: 100%;
@@ -344,8 +342,8 @@ div.mySlides.fade {
 	}
 }
 
-/*responsief mobiel*/
-@media (max-width: 320px) {}
+/*responsief 1 */
+@media (max-width: 1250px) {}
 
-/*responsief tablet*/
-@media (max-width: 320px) {}
+/*responsief 2 */
+@media (max-width: 720px) {}
