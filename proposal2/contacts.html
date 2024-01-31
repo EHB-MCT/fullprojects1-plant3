@@ -37,16 +37,25 @@
 				<h1 class="custom-font-size">Contact us</h1>
 			</div>
 
-			<form action="#">
+			<form action="https://formsubmit.co/rayanehddt@gmail.com" method="POST">
 				<p>
-					<input required type="text" placeholder="Naam en Voornaam" />
+					<input required type="text" name="Naam en Voornaam" placeholder="Naam en Voornaam" />
 				</p>
 				<p>
-					<input required type="text" placeholder="E-mail" />
+					<input required type="email" name="email" placeholder="E-mail" />
 				</p>
-				<input required type="text" placeholder="Vraag" />
-
-				<button class="sendbt" type="submit">Verzenden</button>
+				<input required type="text" name="question" placeholder="Question" />
+                <input type="hidden" name="_subject" value="Word plant bewust !"/>
+				<input type="hidden"
+				name="_autoresponse"
+				value="
+				Beste plantenvrienden,
+				
+				Dank namens Plantbewustzijn voor jullie inzet voor planten. Jullie steun aan hun belang wordt gewaardeerd. Respect voor hun rol is cruciaal voor welzijn en planeet. Door jullie toewijding is onze missie vooruitgegaan. Elke bijdrage telt, en samen bevorderen we plantenbewustzijn. Bedankt voor jullie waardevolle steun aan onze gemeenschappelijke missie.
+				
+				Met dankbaarheid,
+				Team Plantbewustzijn "/>
+				<button type="submit">verzenden</button>
 				<!--<input type="submit" value="Abonneer je"> -->
 			</form>
 
@@ -61,12 +70,13 @@
 				<div class="footer-content">
 					<div class="footer-category">
 						<h1 class="footertextcolor">About us</h1>
-
+						
 						<ul class="footer-links">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="misie.html">Missie en Visie</a></li>
 							<li><a href="wie.html">Wie is Wie</a></li>
 							<li><a href="gert.html">Gert Ausloos</a></li>
+							
 						</ul>
 					</div>
 					<div class="footer-category">
@@ -74,13 +84,12 @@
 						<ul class="footer-links">
 							<li><a href="verslag.html">Verslag</a></li>
 							<li><a href="contact.html">Contact</a></li>
-							<li>
-								<a href="contact.html" class="subscribe-button">CONTACT US</a>
-							</li>
-							<!-- Add this line for the subscribe button -->
+							<li><a href="contact.html" class="subscribe-button">CONTACT US</a></li> <!-- Add this line for the subscribe button -->
+						
+							
 						</ul>
 					</div>
-				</div>
+					</div>
 				<p class="copyright">
 					&copy; 2024 Your Company Name. All rights reserved.
 				</p>
