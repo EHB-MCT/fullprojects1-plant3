@@ -60,8 +60,6 @@ label input[type="radio"] {
 .custom-font-size {
 	font-size: 100px; /* Set the desired font size for the specific element */
 }
-<<<<<<< HEAD:proposal2/contacts.css
-=======
 
 
 
@@ -86,4 +84,3 @@ label input[type="radio"] {
 	z-index: 1; /* Place the forms container above the image container */
 	/* Your existing styles for .wrapper */
 }
->>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c:proposal2/contact.css
