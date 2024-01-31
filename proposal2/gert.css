@@ -5,15 +5,8 @@
 }
 
 .backgroundflowers img {
-<<<<<<< HEAD
 	margin-top: 200px;
 	width: 280px;
-=======
-	margin-top: 100px;
-	width: auto;
->>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c
-	margin-right: 400px;
-	height: 350px;
 }
 
 div.backgroundflowers img {
@@ -21,7 +14,7 @@ div.backgroundflowers img {
 	margin-top: 150px;
 }
 
-img.fotogeert {
+img.fotogert {
 	width: 400px;
 	height: auto;
 	margin-left: 10px;
@@ -30,35 +23,56 @@ img.fotogeert {
 	margin-bottom: 0px;
 }
 
-.gertpicture h1 {
-	margin-right: 650px;
-}
-
 .text {
-	margin-left: 609px;
+	margin-left: 690px;
 	position: absolute;
 	margin-top: 85px;
 	height: 350px;
 	position: fixed;
 	top: 10%;
-<<<<<<< HEAD
-	left: 16%;
+	width: 257px;
 }
 
-.text2 {
-	position: absolute;
-	margin-top: 150px;
-	margin-right: 260px;
-	width: 20%;
-	top: 40%;
-	right: 7%;
-	float: right;
-=======
-	left: 15%;
-	width: 273.65px;
-}
-
-.layout {
+.twopictures {
 	display: flex;
->>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 700px) {
+	body {
+		background-color: red;
+		display: flex;
+		justify-self: center;
+	}
+	.twopictures {
+		display: flex;
+		flex-direction: column;
+	}
+	.wrapper {
+		justify-content: center;
+	}
+	.text {
+		margin-left: 0;
+		position: static;
+		margin-top: 0;
+		width: 280px;
+	}
+	div.backgroundflowers img {
+		margin-top: 0;
+		width: 200px;
+	}
+	.gertpicture img {
+		width: 280px;
+		display: flex;
+		justify-content: center;
+	}
+	img.fotogert {
+		margin-left: 0;
+	}
+	div {
+	}
+	.backgroundflowers img {
+		display: flex;
+		justify-content: center;
+	}
 }
