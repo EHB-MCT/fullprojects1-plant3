@@ -22,25 +22,6 @@ input {
 	border-radius: 4px;
 }
 
-button {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: bold;
-	color: #415b01;
-	background-color: #fbf8f3;
-	padding: 5px;
-	text-decoration: none;
-}
-
-button:hover {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: bold;
-	color: #fbf8f3;
-	background-color: #415b01;
-	padding: 5px;
-}
-
 /* Style radio buttons */
 input[type="radio"] {
 	margin-right: 5px;
@@ -50,12 +31,16 @@ input[type="radio"] {
 label input[type="radio"] {
 	margin-top: 10px;
 }
+
+.contactimg img {
+	width: 50%;
+}
+
 ::placeholder {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
 	font-style: italic;
 	color: #d4b89d;
-	
 }
 
 ::-ms-input-placeholder {
@@ -73,6 +58,4 @@ label input[type="radio"] {
 }
 .custom-font-size {
 	font-size: 100px; /* Set the desired font size for the specific element */
-	color: #415b01;
 }
-

@@ -12,7 +12,7 @@
 
 .backgroundflowers img {
 	margin-top: 200px;
-	width: 250px;
+	width: 280px;
 	margin-right: 400px;
 }
 
@@ -31,8 +31,7 @@ img.fotogeert {
 	margin-bottom: 0px;
 }
 
-.gerttitle h1 {
-	margin-top: 15px;
+.gertpicture h1 {
 	margin-right: 650px;
 }
 
@@ -42,7 +41,7 @@ img.fotogeert {
 	margin-top: 185px;
 	width: 20%;
 	top: 10%;
-	left: 15%;
+	left: 16%;
 }
 
 .text2 {
@@ -51,6 +50,6 @@ img.fotogeert {
 	margin-right: 260px;
 	width: 20%;
 	top: 40%;
-	right: 8%;
+	right: 7%;
 	float: right;
 }
