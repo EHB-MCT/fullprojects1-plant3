@@ -11,8 +11,8 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 1200px;
-	align-items: flex-start; /* Alignement des cartes des membres en haut */
-	justify-content: flex-start; /* Alignement horizontal des cartes des membres */
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 .wrapper h1 {
 	margin-left: 30px;
@@ -117,7 +117,7 @@ a {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.member-card {
-		width: calc(50% - 70px); /* Deux colonnes sur tablette */
+		width: calc(50% - 70px);
 	}
 	.wrapper h1 {
 		margin-left: 35px;
@@ -125,6 +125,6 @@ a {
 }
 @media screen and (min-width: 1024px) {
 	.member-card {
-		width: calc(33.333% - 70px); /* Trois colonnes sur PC */
+		width: calc(33.333% - 70px);
 	}
 }
