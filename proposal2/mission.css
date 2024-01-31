@@ -6,56 +6,49 @@ body {
 html {
 }
 
-/*.container {
-	display: flex;
-	margin: auto;
+.outerwrapper {
+	margin-top: 0;
+	height: 100%;
+}
+.background-color {
+	width: 100%;
+	background-color: yellow;
 }
 
-.container img {
-	max-width: 100%; /* Ensure images are responsive */
-/*}
-
-.text h1 {
-	font-weight: 600;
-	text-transform: uppercase;
-	font-size: 25px;
-}*/
-.navigation ul {
-	padding-left: 38px;
+.vision {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+	background-color: #d4b89d;
+	justify-content: center;
+}
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
 
 .mission {
-	margin-bottom: 20px;
-	position: relative;
-	top: 250px; /* Adjust the vertical position */
-	left: 30%; /* Adjust the horizontal position */
-	height: 100%;
-	width: 50%;
-	background-color: #fbf8f3;
-	padding: 5px;
-	color: black;
-	padding-left: 20px;
-}
-.vision {
-	margin-bottom: 20px;
-	position: relative;
-	top: 250px; /* Adjust the vertical position */
-	left: 5%; /* Adjust the horizontal position */
-	height: 100%;
-	width: 50%;
-	background-color: #d4b89d;
-	padding: 5px;
-	color: black;
-	padding-left: 40px;
-	margin-left: 140px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 50px;
+	justify-content: center;
 }
 
-.narrow-width {
-	max-width: 500px;
+.text1 {
+	max-width: 30%;
 }
 
-img {
-	height: auto;
+.text2 {
+	max-width: 30%;
+}
+
+.photo {
+	width: 20%;
+	margin: 100px 50px 100px 10px;
 }
 
 .wave-header {
@@ -69,31 +62,17 @@ img {
 
 .wave-head {
 	text-align: center;
-	z-index: 1; /* Set a lower z-index to position it behind the slider */
+	z-index: 1;
 	width: 100%;
 	background-color: #d4b89d;
 	margin-top: -7px;
 	height: max-content;
 }
 
-.flex {
-	background-color: #d4b89d;
-	width: 100%;
-}
-.hero1 {
-	margin-top: -15%;
-}
-
-.hero2 {
-	margin-top: -22%;
-}
-
-.photo1 {
-	height: 300px;
-	width: 240px;
+.img {
+	height: 5%;
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 170px;
 }
 
 .photo2 {
@@ -102,31 +81,6 @@ img {
 	height: 300px;
 	padding-bottom: 11%;
 }
-p {
-	padding: 5px;
-	color: black;
-	top: -400px; /* Adjust the vertical position */
-	height: 100%;
-}
-/*.text10 {
-	left: 10%; /* Adjust the horizontal position */
-/*width: 30%;
-	padding-left: 30px;
-	margin-left: 10%;
-}
-
-.text20 {
-	left: 60%; /* Adjust the horizontal position */
-/*width: 50%;
-	padding-left: 30px;
-}*/
-
-/*body {
-	background-image: url(Pictures/top.svg);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: 0%;
-}*/
 
 @media screen and (max-width: 1400px) {
 	body {
