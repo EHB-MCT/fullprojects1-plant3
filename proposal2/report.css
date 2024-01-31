@@ -1,19 +1,19 @@
 .body {
 	background-color: #fbf8f3;
 }
-.foto {
+.photo {
 	width: 200px;
 	margin: 10px;
 }
-.artikel {
+.article {
 	background-color: white;
 	margin: 20px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	width: 100%;
+	width: 550px;
 }
-.tekst {
+.text {
 	display: flex;
 	flex-direction: column;
 	flex: none;
@@ -25,6 +25,7 @@
 	width: 20px;
 	height: 20px;
 	margin: 100%;
+	margin-left: 0;
 }
 
 .rapport {
@@ -32,3 +33,167 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+/*<div class="article">
+					<img src="images/verslag.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>De groene revolutie</h3>
+						<p class="documents">Zaterdag 20/04/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag1.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>Hoe de plant ons gezond houdt</h3>
+						<p class="documents">Zaterdag 13/04/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag3.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>Hand in hand met de plant</h3>
+						<p class="documents">Zaterdag 06/04/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag4.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>Blije mens, blije plant</h3>
+						<p class="documents">Zaterdag 30/03/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag5.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>De verandering van de plantencultuur in België</h3>
+						<p class="documents">Zaterdag 23/03/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag6.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>Hoe gevaarlijk is een plant voor uw kinderen en huisdieren?</h3>
+						<p class="documents">Zaterdag 16/03/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag7.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>Tips om de tuin gezond te houden</h3>
+						<p class="documents">Zaterdag 09/03/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag8.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>De beste planten voor de zomer</h3>
+						<p class="documents">Zaterdag 02/03/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag9.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>Hoeveel water heeft mijn plant nodig?</h3>
+						<p class="documents">Zaterdag 24/02/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag10.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>Vetplantjes? Ideaal!</h3>
+						<p class="documents">Zaterdag 17/02/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>
+
+				<div class="article">
+					<img src="images/verslag11.jpg" class="photo" alt="photo" />
+					<a href="#" class="text">
+						<h3>Zomerplanten</h3>
+						<p class="documents">Zaterdag 10/02/2023</p>
+					</a>
+					<a href="#">
+						<img
+							src="Pictures/Artboard 11.png"
+							class="downloadsign"
+							alt="download"
+						/>
+					</a>
+				</div>*/

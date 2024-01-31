@@ -1,24 +1,24 @@
-.twopictures {
-	display: flex;
-}
-
 .gertpicture img {
 	width: 300px;
 	margin-left: 200px;
 	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 .backgroundflowers img {
+<<<<<<< HEAD
 	margin-top: 200px;
 	width: 280px;
+=======
+	margin-top: 100px;
+	width: auto;
+>>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c
 	margin-right: 400px;
+	height: 350px;
 }
 
 div.backgroundflowers img {
 	margin: 0;
-	margin-top: 250px;
+	margin-top: 150px;
 }
 
 img.fotogeert {
@@ -27,7 +27,6 @@ img.fotogeert {
 	margin-left: 10px;
 	position: relative;
 	z-index: 1; /* Ensure Gert Ausloos' image is on top */
-	margin-top: 100px;
 	margin-bottom: 0px;
 }
 
@@ -35,12 +34,14 @@ img.fotogeert {
 	margin-right: 650px;
 }
 
-.text1 {
+.text {
 	margin-left: 609px;
 	position: absolute;
-	margin-top: 185px;
-	width: 20%;
+	margin-top: 85px;
+	height: 350px;
+	position: fixed;
 	top: 10%;
+<<<<<<< HEAD
 	left: 16%;
 }
 
@@ -52,4 +53,12 @@ img.fotogeert {
 	top: 40%;
 	right: 7%;
 	float: right;
+=======
+	left: 15%;
+	width: 273.65px;
+}
+
+.layout {
+	display: flex;
+>>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c
 }
