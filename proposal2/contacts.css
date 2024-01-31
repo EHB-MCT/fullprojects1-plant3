@@ -23,25 +23,6 @@ input {
 	border-radius: 4px;
 }
 
-button {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: bold;
-	color: #415b01;
-	background-color: #fbf8f3;
-	padding: 5px;
-	text-decoration: none;
-}
-
-button:hover {
-	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: bold;
-	color: #fbf8f3;
-	background-color: #415b01;
-	padding: 5px;
-}
-
 /* Style radio buttons */
 input[type="radio"] {
 	margin-right: 5px;
@@ -51,12 +32,16 @@ input[type="radio"] {
 label input[type="radio"] {
 	margin-top: 10px;
 }
+
+.contactimg img {
+	width: 50%;
+}
+
 ::placeholder {
 	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
 	font-style: italic;
 	color: #d4b89d;
-	
 }
 
 ::-ms-input-placeholder {
@@ -74,8 +59,9 @@ label input[type="radio"] {
 }
 .custom-font-size {
 	font-size: 100px; /* Set the desired font size for the specific element */
-	color: #415b01;
 }
+<<<<<<< HEAD:proposal2/contacts.css
+=======
 
 
 
@@ -100,3 +86,4 @@ label input[type="radio"] {
 	z-index: 1; /* Place the forms container above the image container */
 	/* Your existing styles for .wrapper */
 }
+>>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c:proposal2/contact.css

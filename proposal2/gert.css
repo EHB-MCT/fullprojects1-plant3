@@ -5,8 +5,13 @@
 }
 
 .backgroundflowers img {
+<<<<<<< HEAD
+	margin-top: 200px;
+	width: 280px;
+=======
 	margin-top: 100px;
 	width: auto;
+>>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c
 	margin-right: 400px;
 	height: 350px;
 }
@@ -25,8 +30,7 @@ img.fotogeert {
 	margin-bottom: 0px;
 }
 
-.gerttitle h1 {
-	margin-top: 15px;
+.gertpicture h1 {
 	margin-right: 650px;
 }
 
@@ -37,10 +41,24 @@ img.fotogeert {
 	height: 350px;
 	position: fixed;
 	top: 10%;
+<<<<<<< HEAD
+	left: 16%;
+}
+
+.text2 {
+	position: absolute;
+	margin-top: 150px;
+	margin-right: 260px;
+	width: 20%;
+	top: 40%;
+	right: 7%;
+	float: right;
+=======
 	left: 15%;
 	width: 273.65px;
 }
 
 .layout {
 	display: flex;
+>>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c
 }
