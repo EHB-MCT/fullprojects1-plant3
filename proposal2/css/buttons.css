@@ -2,18 +2,21 @@
 
 .button {
 	font-family: "houschka-rounded", sans-serif;
-	font-weight: 300;
-	font-style: bold;
-	color: #415b01;
-	background-color: #fbf8f3;
-	padding: 5px;
-	text-decoration: none;
 }
+
+.button {
+	margin-top: 30px;
+	color: #415b01;
+	border-radius: 30px;
+	padding: 10px 25px;
+	background-color: white;
+	z-index: 500;
+}
+
 .button:hover {
-	font-family: "houschka-rounded", sans-serif;
 	font-weight: 300;
 	font-style: bold;
 	color: #fbf8f3;
+	z-index: 500;
 	background-color: #415b01;
-	padding: 5px;
 }
