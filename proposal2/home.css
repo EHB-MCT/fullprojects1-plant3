@@ -200,44 +200,6 @@ div.mySlides.fade {
 	background-color: #fbf8f3;
 }
 
-@media (max-width: 768px) {
-	.text {
-		font-size: 18px;
-		font-family: "Montserrat", sans-serif;
-	}
-}
-
-@media (max-width: 320px) {
-	.text {
-		font-size: 15px;
-		margin-left: -15px;
-	}
-
-	div .slideshow-container {
-		margin-top: -15px;
-		background-color: #fff;
-		width: 100%;
-	}
-}
-
-@media (min-width: 320px) {
-
-	.prev,
-	.next {
-		cursor: pointer;
-		position: absolute;
-		top: 50%;
-		width: auto;
-		padding: 16px;
-		margin-top: -72px;
-		color: #fff;
-		font-weight: bold;
-		font-size: 18px;
-		transition: 0.6s ease;
-		border-radius: 0 3px 3px 0;
-		user-select: none;
-	}
-}
 
 
 .textanatomy {
@@ -340,4 +302,44 @@ div.mySlides.fade {
 	align-items: center;
 	margin-top: 12%;
 	margin-bottom: 10%;
+}
+
+/* responsief*/
+@media (max-width: 768px) {
+	.text {
+		font-size: 18px;
+		font-family: "Montserrat", sans-serif;
+	}
+}
+
+@media (max-width: 320px) {
+	.text {
+		font-size: 15px;
+		margin-left: -15px;
+	}
+
+	div .slideshow-container {
+		margin-top: -15px;
+		background-color: #fff;
+		width: 100%;
+	}
+}
+
+@media (min-width: 320px) {
+
+	.prev,
+	.next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -72px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+	}
 }
