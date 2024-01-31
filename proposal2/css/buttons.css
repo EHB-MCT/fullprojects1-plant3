@@ -10,11 +10,14 @@
 	border-radius: 30px;
 	padding: 10px 25px;
 	background-color: white;
+
 }
 
 .button:hover {
 	font-weight: 300;
 	font-style: bold;
 	color: #fbf8f3;
+	z-index: 500;
 	background-color: #415b01;
+
 }
