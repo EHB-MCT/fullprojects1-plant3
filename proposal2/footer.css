@@ -29,11 +29,13 @@
 
 .footer-category {
 	margin-top: 5%;
+	text-align: center;
 }
 .footer-category2 {
 	margin-top: 5%;
     width: 25%;
     height: auto;
+	text-align: center;
 }
 .tree12 {
     width: auto;
@@ -96,4 +98,18 @@
 	z-index: 500;
 	background-color: #aaa88e;
 
+}
+@media (max-width: 768px) {
+	.footer-content {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.footer-category2 {
+		width: 100%;
+	}
+
+	.tree12 {
+		width: 70%; /* Adjust as needed */
+	}
 }
