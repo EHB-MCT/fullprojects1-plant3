@@ -27,7 +27,9 @@
 		/>
 		<link rel="stylesheet" href="carousel.css" />
 
-		<!-- <script type="module" src="index.js" defer></script> -->
+		<script defer src="scripts/tree-root.js"></script>
+
+
 	</head>
 	<body>
 		
@@ -320,30 +322,7 @@
 		</div>
 		
 
-		<script>
-			let paths = document.querySelectorAll("path");
-			fillSvgPaths();
-			document.addEventListener("scroll", fillSvgPaths);
-			function fillSvgPaths() {
-				let scrollPercentage =
-					(document.documentElement.scrollTop + document.body.scrollTop) /
-					(document.documentElement.scrollHeight -
-						document.documentElement.clientHeight);
-				console.log(scrollPercentage);
-
-				for (var i = 0; i < paths.length; i++) {
-					let path = paths[i];
-					let pathLength = path.getTotalLength();
-					console.log(pathLength);
-					path.style.strokeDasharray = pathLength;
-					path.style.strokeDashoffset = pathLength;
-
-					let drawLength = pathLength * scrollPercentage;
-					path.style.strokeDashoffset = pathLength - drawLength;
-				}
-			}
-		</script>
-
+		
 		<div class="wrapper">
 			<div class="navigation">
 				<ul>
@@ -382,7 +361,7 @@
 						voor de meesten van ons, een blinde vlek.”
 					</p>
 					<p class="berger">- Lynn Berger</p>
-					<a href="#" class="btn-primary">Lees meer....</a>
+					<a href="#" class="button">Lees meer....</a>
 				</div>
 			</div>
 			<div class="photo-introduction">
@@ -448,7 +427,6 @@
 				}
 			}
 		</script>
-
 		<script>
 			let slideIndex = 1;
 			showSlides(slideIndex);
@@ -508,7 +486,11 @@
 		<script src="https://raw.githubusercontent.com/furf/jquery-ui-touch-punch/master/jquery.ui.touch-punch.min.js"></script>
 		<script src="./slider.js"></script>
 
-		<div class="wave-upper"></div>
+
+
+
+		<h2>titel</h2>
+
 
 		<div class="owl-carousel video-section">
 			<div class="item">
@@ -517,8 +499,7 @@
 						class="js-player"
 						crossorigin
 						playsinline
-						poster="images/echtesalie-lineart.jpg"
-					>
+						poster="images/echtesalie-lineart.jpg "alt="rosmarijn-lineart">
 						<source src="images/EchtesSalie.mp4" type="video/mp4" size="720" />
 					</video>
 				</div>
@@ -541,7 +522,7 @@
 						class="js-player"
 						crossorigin
 						playsinline
-						poster="images/rosmarijn-lineart.jpg"
+						poster="images/rosmarijn-lineart.jpg "
 					>
 						<source src="images/Rozemarijn.mp4" type="video/mp4" size="720" />
 					</video>
@@ -553,35 +534,5 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.8/plyr.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
 		<script src="caousel.js"></script>
-		<footer class="site-footer">
-			<div class="footer-container">
-				<div class="footer-content">
-					<div class="footer-category">
-						<h1 class="footertextcolor">About us</h1>
-
-						<ul class="footer-links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="mission.html">Missie en Visie</a></li>
-							<li><a href="who is who.html">Wie is Wie</a></li>
-							<li><a href="gert.html">Gert Ausloos</a></li>
-						</ul>
-					</div>
-					<div class="footer-category">
-						<h1 class="footertextcolor">Contact us</h1>
-						<ul class="footer-links">
-							<li><a href="report.html">Verslag</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li>
-								<a href="contact.html" class="subscribe-button">CONTACT US</a>
-							</li>
-							<!-- Add this line for the subscribe button -->
-						</ul>
-					</div>
-				</div>
-				<p class="copyright">
-					&copy; 2024 Your Company Name. All rights reserved.
-				</p>
-			</div>
-		</footer>
 	</body>
 </html>

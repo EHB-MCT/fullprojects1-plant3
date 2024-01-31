@@ -10,7 +10,7 @@
 	border-radius: 30px;
 	padding: 10px 25px;
 	background-color: white;
-	z-index: 500;
+
 }
 
 .button:hover {
@@ -19,4 +19,5 @@
 	color: #fbf8f3;
 	z-index: 500;
 	background-color: #415b01;
+
 }
