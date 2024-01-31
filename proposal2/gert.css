@@ -25,12 +25,10 @@ img.fotogert {
 
 .text {
 	margin-left: 690px;
-	position: absolute;
+	position: absolute;	
 	margin-top: 85px;
 	height: 350px;
-	position: fixed;
-	top: 10%;
-	width: 257px;
+    width: 257px;
 }
 
 .twopictures {
@@ -53,7 +51,7 @@ img.fotogert {
 	}
 	.text {
 		margin-left: 0;
-		position: static;
+		position: re;
 		margin-top: 0;
 		width: 280px;
 	}
