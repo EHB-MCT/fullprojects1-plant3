@@ -74,14 +74,6 @@ h2 {
 	padding-bottom: 15px;
 }
 
-<<<<<<< HEAD
-=======
-/* .third h2 {
-	margin-left: 16%;
-	margin-top: 120px;
-} */
-
->>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c
 /* caroussel */
 
 .mySlides {
@@ -242,7 +234,6 @@ div.mySlides.fade {
 		user-select: none;
 	}
 }
-<<<<<<< HEAD
 
 /* tree animation */
 
@@ -337,5 +328,3 @@ div.mySlides.fade {
 .footer-links a:hover {
 	color: #fbf8f3;
 }
-=======
->>>>>>> 1a04954cfa2be5dae642bd44fc55e3a0448db99c
