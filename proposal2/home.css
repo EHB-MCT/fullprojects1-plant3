@@ -33,7 +33,7 @@
 
 .quote2 h2 {
 	text-align: center;
-	padding-top: 65px;
+	padding-top: 35px;
 	padding-bottom: 65px;
 }
 
@@ -233,6 +233,7 @@ div.mySlides.fade {
 	width: 100%;
 	position: absolute;
 	top: 480px;
+	background-color: red;
 }
 
 .fourth {
