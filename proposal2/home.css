@@ -284,7 +284,131 @@ div.mySlides.fade {
 		border-radius: 0 3px 3px 0;
 		user-select: none;
 	}
+
+
+
+
 }
+
+/*Hamburger menu*/
+.mobile-container {
+	max-width: 80%;
+	margin: auto;
+	background-color: #555;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+}
+
+.topnav {
+	overflow: hidden;
+	position: relative;
+}
+
+.navigation #myLinks {
+	display: none;
+}
+
+#myLinks {
+	color: #605643;
+}
+
+.navigation a {
+	color: #605643;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.navigation a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.navigation a:hover {}
+
+
+
+@media (min-width:769px) {
+	.navigation a {
+		display: inline-block;
+
+	}
+
+	.navigation #mylinks {
+		display: inline-block !important;
+	}
+
+	.navigation a.icon {
+		display: none;
+	}
+
+	.navigation {
+		text-align: center;
+	}
+}
+
+/* navigatie */
+
+.navigation a {
+	text-align: center;
+}
+
+.mobile-container {
+	max-width: 769px;
+	margin: auto;
+	background-color: #555;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+}
+
+.navigation {
+	overflow: hidden;
+	position: relative;
+}
+
+.navigation #myLinks {
+	display: none;
+}
+
+.navigation a {
+	color: #605643;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.navigation a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+
+
+@media (min-width:765px) {
+	.navigation a {
+		display: inline-block;
+
+	}
+
+	.navigation #mylinks {
+		display: inline-block !important;
+		float: right;
+	}
+
+	.navigation a.icon {
+		display: none;
+	}
+}
+
 
 /*responsief mobiel*/
 @media (max-width: 767px) {
