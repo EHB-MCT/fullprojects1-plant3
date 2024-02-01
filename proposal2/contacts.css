@@ -2,6 +2,7 @@ form {
 	max-width: 40%;
 	margin: 0 auto;
 	margin-left: 40%;
+	margin-bottom: 30%;
 }
 
 label {
@@ -87,6 +88,7 @@ input[type="radio"] {
 			max-width: 80%;
 			margin: 0 auto;
 			align-items: center;
+			margin-bottom: 80%;
 		}
         /* Add responsive CSS styles here */
     

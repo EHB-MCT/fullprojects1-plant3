@@ -7,7 +7,7 @@ html, body {
     height: 100%;
 }
 .outerwrapper {
-	height: 100%;
+	min-height: 100%;
 	margin: 0; 
 	margin-bottom: 0;
 
@@ -21,7 +21,7 @@ html, body {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	margin-bottom: 50px;
+	
 	background-color: #d4b89d;
 	justify-content: center;
 	
@@ -90,13 +90,22 @@ margin-top: 25px;
 
 @media screen and (max-width: 1023px) {
 	
-	.mission,
+	.mission{
+		width: 100%;
+	  padding:  30px;
+	  box-sizing: border-box; 
+	  text-align: center; 
+	  margin-bottom: 20px; 
+	  display: flex;
+	  flex-direction: column; 
+	  align-items: center; 
+	}
 	.vision {
 	  width: 100%;
 	  padding:  30px;
 	  box-sizing: border-box; 
 	  text-align: center; 
-	  margin-bottom: 20px; 
+	   
 	  display: flex;
 	  flex-direction: column; 
 	  align-items: center; 
