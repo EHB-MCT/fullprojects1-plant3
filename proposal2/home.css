@@ -295,7 +295,7 @@ div.mySlides.fade {
 
 
 /*Hamburger menu*/
-/*
+
 .mobile-container {
 	max-width: 80%;
 	margin: auto;
@@ -356,8 +356,6 @@ div.mySlides.fade {
 	}
 }
 
- navigatie
-
 .navigation a {
 	text-align: center;
 }
@@ -398,7 +396,7 @@ div.mySlides.fade {
 
 
 
-@media (min-width:765px) {
+@media (min-width:767px) {
 	.navigation a {
 		display: inline-block;
 
@@ -414,8 +412,14 @@ div.mySlides.fade {
 	}
 }
 
+@media (min-width: 767px) {
+	.navigation #myLinks {
+		display: block;
+		/* of display: flex; */
+	}
+}
 
-*/
+
 
 
 /*responsief mobiel*/
