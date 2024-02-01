@@ -110,4 +110,7 @@ input[type="radio"] {
         input {
             font-size: 16px; /* Adjust font size for smaller screens */
         }
+		.flex-container{
+		margin-right: 20%;
+		}
     }
