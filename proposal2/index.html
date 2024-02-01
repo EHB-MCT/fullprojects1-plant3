@@ -17,6 +17,10 @@
 		<link rel="stylesheet" href="footer.css" />
 		<link
 			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
 			href="https://fonts.googleapis.com/css?family=Merriweather"
 		/>
 		<link
@@ -321,16 +325,21 @@
 		</div>
 
 		<div class="wrapper">
+			<!-- Top Navigation Menu -->
 			<div class="navigation">
-				<ul>
-					<li><a href="index.html" class="active">Home</a></li>
-					<li><a href="mission.html">Missie en Visie</a></li>
-					<li><a href="who is who.html">Wie is Wie</a></li>
-					<li><a href="gert.html">Gert Ausloos</a></li>
-					<li><a href="report.html">Verslag</a></li>
-					<li><a href="contacts.html">Contact</a></li>
-				</ul>
+				<a href="index.html" class="active"></a>
+				<div id="myLinks">
+					<a href="mission.html">Home</a>
+					<a href="who is who.html">Missie en Visie</a>
+					<a href="#gert.html">Wie is wie</a>
+					<a href="#report.html">Gert Ausloos</a>
+					<a href="#contacts.html">Contact</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
 			</div>
+
 			<div class="home">
 				<div class="lineart">
 					<img src="images/lightbrowntree.png" alt="tree" />
@@ -539,6 +548,21 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.4.8/plyr.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
 		<script src="caousel.js"></script>
+<<<<<<< HEAD
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
+=======
+		
+>>>>>>> 2bb37f02bee262a2d67371862bd902793d0fa596
+	</body>
 		<footer class="site-footer">
 			<div class="footer-container">
 				<div class="footer-content">
