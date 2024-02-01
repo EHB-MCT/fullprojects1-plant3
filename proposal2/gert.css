@@ -26,18 +26,15 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .pink {
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
 }
+
 .pink img {
-	width: 25%;
-	margin-left: 10px;
-}
-.flower img {
-	width: 400px;
-	margin-top: 30px;
+	width: 20%;
 }
 
 @media screen and (max-width: 768px) {
@@ -68,5 +65,10 @@
 	.pink img {
 		margin-top: 10px;
 		width: 65%; /* Add some margin between images on mobile */
+	}
+
+	.flower img {
+		width: 65%;
+		margin-top: 10px;
 	}
 }
