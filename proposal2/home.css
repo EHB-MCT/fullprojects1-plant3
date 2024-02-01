@@ -49,7 +49,6 @@ img.test {
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-bottom: 65px;
-	;
 }
 
 .second h1,
@@ -60,8 +59,6 @@ h2 {
 .second p {
 	text-align: left;
 }
-
-
 
 .plantblindness {
 	padding-left: 35px;
@@ -87,7 +84,6 @@ img {
 	width: 90%;
 	position: relative;
 	margin: auto;
-
 }
 
 .slideshow-container img {
@@ -177,7 +173,7 @@ div .slideshow-container {
 }
 
 div .slideshow-container p {
-	margin: 0px
+	margin: 0px;
 }
 
 div.mySlides.fade {
@@ -186,14 +182,12 @@ div.mySlides.fade {
 
 /* On smaller screens, decrease text size (caroussel responsief) */
 @media only screen and (max-width: 300px) {
-
 	.prev,
 	.next,
 	.text {
 		font-size: 11px;
 	}
 }
-
 
 .hero {
 	display: flex;
@@ -263,12 +257,10 @@ div.mySlides.fade {
 		margin-top: -15px;
 		background-color: #fff;
 		width: 100%;
-
 	}
 }
 
 @media (min-width: 320px) {
-
 	.prev,
 	.next {
 		cursor: pointer;
@@ -284,15 +276,7 @@ div.mySlides.fade {
 		border-radius: 0 3px 3px 0;
 		user-select: none;
 	}
-
-
-
-
 }
-
-
-
-
 
 /*Hamburger menu*/
 /*
@@ -417,7 +401,6 @@ div.mySlides.fade {
 
 */
 
-
 /*responsief mobiel*/
 @media (max-width: 767px) {
 	.titel h1 {
@@ -448,9 +431,7 @@ div.mySlides.fade {
 		justify-content: space-between;
 		padding-bottom: 65px;
 		text-align: center;
-
 	}
-
 }
 
 /*responsief tablet*/
@@ -482,6 +463,5 @@ div.mySlides.fade {
 		justify-content: space-between;
 		padding-bottom: 65px;
 		text-align: center;
-
 	}
 }
