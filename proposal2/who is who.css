@@ -3,28 +3,26 @@ a {
 }
 .wrapper {
 	margin-top: 50px;
-	max-width: 1200px;
+	max-width: 80%;
 	padding: 0 20px;
 }
 
 .members {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 1200px;
-	align-items: flex-start;
-	justify-content: flex-start;
+	max-width: 80%;
+	align-items: center;
 }
 .wrapper h1 {
 	margin-left: 30px;
+	max-width: 80%;
 }
 
 .member-card {
 	align-items: center;
-	width: 300px;
-	height: 150px;
-	margin: 35px;
-	align-items: flex-start;
-	overflow: hidden;
+	max-width: 70%;
+	height: 170px;
+	margin: 25px;
 	background-color: #fff;
 	transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 	position: relative;
