@@ -61,13 +61,6 @@ a {
 	max-width: 80%;
 }
 
-.member-card .button {
-	position: absolute;
-	bottom: 5px;
-	right: 10px;
-	color: #605643;
-}
-
 .quote-container {
 	position: relative;
 	max-width: 80%;
@@ -125,6 +118,6 @@ a {
 }
 @media screen and (min-width: 1024px) {
 	.member-card {
-		width: calc(33.333% - 70px);
+		width: calc(40% - 20px);
 	}
 }
