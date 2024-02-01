@@ -5,7 +5,7 @@
 	color: #fff;
 	padding: 20px 0;
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 25%;
 }
 .footer-container {
 	max-width: 100%;
@@ -100,6 +100,13 @@
 
 }
 @media (max-width: 768px) {
+	.site-footer {
+		background-color: #605643   ;
+		
+		padding: 20px 0;
+		text-align: center;
+		margin-top: 60%;
+	}
 	.footer-content {
 		flex-direction: column;
 		text-align: center;
@@ -111,5 +118,15 @@
 
 	.tree12 {
 		width: 70%; /* Adjust as needed */
+		
 	}
+	.image-container {
+		padding-bottom: 75%;
+		position: absolute;
+		top: 60%;
+		left: 10%;
+		width: 80%;
+		height: auto;
+		z-index: -1;
+}
 }
