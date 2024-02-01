@@ -24,7 +24,6 @@
 
 .button {
 	font-family: "houschka-rounded", sans-serif;
-	border: solid white 2px;
 	text-decoration: none;
 	padding: 5px 10px;
 	background-color: white;
@@ -37,5 +36,4 @@
 	cursor: pointer;
 	background-color: #415b01;
 	color: white;
-	border: solid white 2px;
 }
