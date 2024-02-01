@@ -50,9 +50,6 @@ input[type="radio"] {
 	flex-direction: column;
 	align-items: center;
 }
-.custom-font-size {
-	font-size: 100px; /* Set the desired font size for the specific element */
-}
 
 .image-container {
 	position: absolute;
