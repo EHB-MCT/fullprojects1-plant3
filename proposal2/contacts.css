@@ -59,7 +59,7 @@ input[type="radio"] {
 	top: 30%;
 	left: 10%;
 	width: 30%;
-	height: 50%;
+	height: auto;
 	z-index: -1; /* Place the image container behind other elements */
 }
 
