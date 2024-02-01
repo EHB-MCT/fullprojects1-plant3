@@ -51,8 +51,7 @@ input[type="radio"] {
 	flex-direction: column;
 	align-items: center;
 	margin-top: 20%;
-	margin-left: 25%;
-	width: 50%;
+	margin-left: 20%;
 }
 
 
@@ -80,19 +79,6 @@ input[type="radio"] {
 .sendbt {
 	margin-top: 3%;
 }
-@media only screen and (max-width: 1024px) {
-	
-	.flex-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-top: 20%;
-		margin-left: 20%;
-		
-	}
-	
-}
-
 
 
     /* Add your non-responsive CSS styles here */
@@ -102,7 +88,7 @@ input[type="radio"] {
 			max-width: 80%;
 			margin: 0 auto;
 			align-items: center;
-			margin-bottom: 150%;
+			margin-bottom: 80%;
 		}
         /* Add responsive CSS styles here */
     
