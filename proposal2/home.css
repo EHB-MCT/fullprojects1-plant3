@@ -370,9 +370,6 @@ div.mySlides.fade {
 	position: relative;
 }
 
-.navigation #myLinks {
-	display: none;
-}
 
 .navigation a {
 	color: #605643;
@@ -403,14 +400,25 @@ div.mySlides.fade {
 	.navigation a.icon {
 		display: none;
 	}
-}
 
-@media (min-width: 767px) {
 	.navigation #myLinks {
-		display: block;
-		/* of display: flex; */
+		display: block !important;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*responsief mobiel*/
 @media (max-width: 767px) {
