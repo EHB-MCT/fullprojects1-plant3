@@ -1,16 +1,13 @@
-/* base-layout.css */
-
-
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 .outerwrapper {
 	height: 100%;
-	margin: 0; 
+	margin: 0;
 	margin-bottom: 0;
-
 }
 .background-color {
 	width: 100%;
@@ -24,7 +21,6 @@ html, body {
 	margin-bottom: 50px;
 	background-color: #d4b89d;
 	justify-content: center;
-	
 }
 .wrapper {
 	max-width: 1200px;
@@ -37,7 +33,7 @@ html, body {
 	width: 100%;
 	display: flex;
 	align-items: center;
-margin-top: 25px;
+	margin-top: 25px;
 	margin-bottom: 50px;
 	justify-content: center;
 }
@@ -59,7 +55,7 @@ margin-top: 25px;
 
 .wave-header {
 	text-align: center;
-	z-index: 1; 
+	z-index: 1;
 	width: 100%;
 	background-color: #fbf8f3;
 	margin-top: -5%;
@@ -89,171 +85,35 @@ margin-top: 25px;
 }
 
 @media screen and (max-width: 1023px) {
-	
 	.mission,
 	.vision {
-	  width: 100%;
-	  padding:  30px;
-	  box-sizing: border-box; 
-	  text-align: center; 
-	  margin-bottom: 20px; 
-	  display: flex;
-	  flex-direction: column; 
-	  align-items: center; 
+		width: 100%;
+		padding: 30px;
+		box-sizing: border-box;
+		text-align: center;
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
-  
+
 	.mission .photo,
 	.vision .photo {
-	  width: 40%; 
-	  margin-bottom: 10px; 
-	  margin: 0 auto;
+		width: 40%;
+		margin-bottom: 10px;
+		margin: 0 auto;
 	}
-  
+
 	.mission .text1,
 	.vision .text2 {
-	  max-width: 80%; 
-	  margin: 25px auto; 
+		max-width: 80%;
+		margin: 25px auto;
 	}
 
-	.photo{
+	.photo {
 		margin-bottom: 60px;
 	}
-	  .vision .photo {
-		order: -1; 
-	  }
-	}
-
-
-/*@media screen and (max-width: 1400px) {
-	body {
-		margin-bottom: 0px;
-		padding-bottom: 0px;
-	}
-	.photo1 {
-		margin-left: 10%;
-		margin-top: -10px;
-		padding-bottom: 30px;
-		margin-top: 30px;
-	}
-	.hero1 {
-		margin-top: -20%;
-	}
-	.mission {
-		width: 500px;
-		margin-bottom: 0;
-		left: 200px;
-	}
-	.vision {
-		margin-left: 20%;
-	}
-	.photo2 {
-		margin-left: 150%;
+	.vision .photo {
+		order: -1;
 	}
 }
-@media screen and (max-width: 1020px) {
-	body {
-	}
-	.wrapper {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-	}
-	.hero1 {
-		display: flex;
-		flex-direction: column-reverse;
-		margin: 0;
-		justify-content: center;
-		align-items: center;
-		margin-top: 20px;
-	}
-	.mission {
-		margin-bottom: 0;
-		position: sticky;
-		margin-top: 0;
-		left: 0;
-		background-color: transparent;
-		display: flex;
-		flex-direction: column;
-		margin: 0;
-		justify-content: center;
-		width: 600px;
-	}
-	.photo1 {
-		margin-left: 0;
-	}
-	.photo2 {
-		margin-left: 0;
-		margin-top: 150px;
-		margin-bottom: 0;
-		padding-bottom: 0;
-	}
-	.hero2 {
-		display: flex;
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.vision {
-		left: 0;
-		width: 600px;
-		top: 0;
-		padding: 0;
-		margin-left: 0;
-	}
-}
-@media screen and (max-width: 700px) {
-	body {
-	}
-	.wrapper {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-	}
-	.hero1 {
-		display: flex;
-		flex-direction: column-reverse;
-		margin: 0;
-		justify-content: center;
-		align-items: center;
-		margin-top: 20px;
-	}
-	.mission {
-		margin-bottom: 0;
-		position: sticky;
-		margin-top: 0;
-		left: 0;
-		background-color: transparent;
-		display: flex;
-		flex-direction: column;
-		margin: 0;
-		justify-content: center;
-		width: 100%;
-	}
-	.photo1 {
-		margin-left: 0;
-		width: 250px;
-		height: auto;
-	}
-	.photo2 {
-		margin-left: 0;
-		margin-top: 100px;
-		margin-bottom: 0;
-		padding-bottom: 0;
-	}
-	.hero2 {
-		display: flex;
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.vision {
-		left: 0;
-		width: 100%;
-		top: 0;
-		padding: 0;
-		margin-left: 0;
-	}
-}
-/*
