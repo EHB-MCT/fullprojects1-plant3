@@ -5,7 +5,7 @@
 	color: #fff;
 	padding: 20px 0;
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 25%;
 }
 .footer-container {
 	max-width: 100%;
@@ -128,4 +128,5 @@
 		width: 80%;
 		height: auto;
 		z-index: -1;
+}
 }
