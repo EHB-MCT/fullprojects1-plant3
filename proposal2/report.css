@@ -1,41 +1,74 @@
-.body {
-	background-color: #fbf8f3;
+.wrapper {
+	max-width: 1200px;
 }
+
 .photo {
 	width: 200px;
+	height: 200px;
+	object-fit: cover;
 	margin: 10px;
 }
+
 .article {
 	background-color: white;
-	margin: 20px;
+	margin: 15px;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
-	width: 550px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 225px;
 }
+
 .text {
 	display: flex;
 	flex-direction: column;
 	flex: none;
-	inline-size: 50%;
-	margin-left: 15px;
+	width: calc(
+		100% - 25px
+	); /* Set width to 100% minus margin to allow responsiveness */
+	text-align: center;
+}
+
+.text h3 {
+	margin: 10px 0 0 0;
+}
+
+.text2 h3 {
+	margin: 10px 0 0 0;
 }
 
 .downloadsign {
 	width: 20px;
 	height: 20px;
-	margin: 100%;
-	margin-left: 0;
+	margin-bottom: 10px;
+	padding: 10px;
+	align-self: center;
 }
 
 .rapport {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+	.article {
+		width: 100%;
+	}
+	.flowerpicture {
+		width: 85%;
+	}
+	h1.reports {
+		text-align: center;
+		margin: 0;
+	}
 }
 
 .photo2 {
 	width: 200px;
+	height: 200px;
+	object-fit: cover;
 	margin: 10px;
 }
 
@@ -44,187 +77,49 @@
 	margin: 20px;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
-	width: 568px;
+	align-items: center;
+	flex-direction: column;
+	width: 225px;
 }
 
 .text2 {
 	display: flex;
 	flex-direction: column;
 	flex: none;
-	inline-size: 50%;
-	margin-left: 15px;
+	width: calc(100% - 25px);
+	text-align: center;
+}
+
+.documents2 {
+	margin-bottom: 0;
+}
+
+.rapport2 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+	.article2 {
+		width: 100%;
+	}
+	h1.notes {
+		text-align: center;
+	}
 }
 
 h1.notes {
 	margin-left: 2%;
+	margin-top: 45px;
 }
 
 h1.reports {
-	margin-left: 3%;
+	margin-left: 11%;
+	margin-top: 30px;
 }
 
-/*<div class="article">
-					<img src="images/verslag.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>De groene revolutie</h3>
-						<p class="documents">Zaterdag 20/04/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag1.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>Hoe de plant ons gezond houdt</h3>
-						<p class="documents">Zaterdag 13/04/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag3.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>Hand in hand met de plant</h3>
-						<p class="documents">Zaterdag 06/04/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag4.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>Blije mens, blije plant</h3>
-						<p class="documents">Zaterdag 30/03/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag5.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>De verandering van de plantencultuur in België</h3>
-						<p class="documents">Zaterdag 23/03/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag6.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>Hoe gevaarlijk is een plant voor uw kinderen en huisdieren?</h3>
-						<p class="documents">Zaterdag 16/03/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag7.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>Tips om de tuin gezond te houden</h3>
-						<p class="documents">Zaterdag 09/03/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag8.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>De beste planten voor de zomer</h3>
-						<p class="documents">Zaterdag 02/03/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag9.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>Hoeveel water heeft mijn plant nodig?</h3>
-						<p class="documents">Zaterdag 24/02/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag10.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>Vetplantjes? Ideaal!</h3>
-						<p class="documents">Zaterdag 17/02/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>
-
-				<div class="article">
-					<img src="images/verslag11.jpg" class="photo" alt="photo" />
-					<a href="#" class="text">
-						<h3>Zomerplanten</h3>
-						<p class="documents">Zaterdag 10/02/2023</p>
-					</a>
-					<a href="#">
-						<img
-							src="Pictures/Artboard 11.png"
-							class="downloadsign"
-							alt="download"
-						/>
-					</a>
-				</div>*/
+.flowerpicture {
+	margin-left: 55px;
+}

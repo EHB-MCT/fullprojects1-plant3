@@ -2,6 +2,10 @@
 	position: relative;
 }
 
+.titel h1 {
+	max-width: 100%;
+}
+
 .lineart img {
 	max-width: 145%;
 	max-height: 180%;
@@ -23,12 +27,12 @@
 	text-align: center;
 	transform: scaleY(2.2);
 	margin-top: 200px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .quote2 h2 {
 	text-align: center;
-	padding-top: 35px;
+	padding-top: 0px;
 	padding-bottom: 65px;
 }
 
@@ -36,6 +40,7 @@ img.test {
 	width: 78%;
 }
 
+/*plantblindheid partij */
 .second {
 	display: flex;
 	align-items: center;
@@ -43,12 +48,13 @@ img.test {
 	/* background-size: 78%; */
 	background-repeat: no-repeat;
 	background-position: left center;
+	padding-bottom: 65px;
+	;
 }
 
 .second h1,
 h2 {
 	margin-bottom: 0;
-	text-align: end;
 }
 
 .second p {
@@ -59,13 +65,17 @@ h2 {
 	margin-left: 35px;
 }
 
+.plantblindness {
+	padding-left: 35px;
+}
+
 .berger {
 	margin: 0;
 	margin-top: 4px;
 	padding-bottom: 15px;
 }
 
-/* caroussel */
+/* carrousel */
 
 .mySlides {
 	display: none;
@@ -76,14 +86,19 @@ img {
 }
 
 .slideshow-container {
-	max-width: 750px;
+	width: 90%;
 	position: relative;
 	margin: auto;
+
 }
 
 .slideshow-container img {
 	vertical-align: middle;
 	width: 100%;
+}
+
+.textcaroussel h2 {
+	margin: 16px 0px;
 }
 
 /* Next & previous buttons */
@@ -138,23 +153,40 @@ div.numberText {
 	text-align: center;
 }
 
-.plantscaroussel h1,
+/*.plantscaroussel h1,
 h3,
 p {
 	text-align: center;
 }
-
-.plantscaroussel p {
-	margin-top: 0px;
-	margin-bottom: 25px;
+*/
+.plantscaroussel {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 65px;
 }
 
-.plantscaroussel h1 {
-	margin-top: 100px;
-	margin-bottom: 6px;
+.plantscaroussel img {
+	width: 100%;
 }
 
-/* On smaller screens, decrease text size */
+.textcaroussel {
+	align-items: center;
+}
+
+div .slideshow-container {
+	background-color: #fbf8f3;
+	width: 100%;
+}
+
+div .slideshow-container p {
+	margin: 0px
+}
+
+div.mySlides.fade {
+	background-color: #fbf8f3;
+}
+
+/* On smaller screens, decrease text size (caroussel responsief) */
 @media only screen and (max-width: 300px) {
 
 	.prev,
@@ -164,15 +196,6 @@ p {
 	}
 }
 
-div .slideshow-container {
-	margin-top: -15px;
-	background-color: #fbf8f3;
-	width: 80%;
-}
-
-div.mySlides.fade {
-	background-color: #fbf8f3;
-}
 
 .hero {
 	display: flex;
@@ -210,6 +233,12 @@ div.mySlides.fade {
 	width: 1420, 75px;
 }
 
+/* Moreplants*/
+.moreplants {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
 /* footer.css */
 
 .videotext h1 {
@@ -236,6 +265,7 @@ div.mySlides.fade {
 		margin-top: -15px;
 		background-color: #fff;
 		width: 100%;
+
 	}
 }
 
@@ -259,56 +289,68 @@ div.mySlides.fade {
 }
 
 /*responsief mobiel*/
-@media (max-width: 320px) {}
+@media (max-width: 767px) {
+	.titel h1 {
+		margin-bottom: 25px;
+	}
 
-/* footer.css */
+	.second {
+		flex-direction: column;
+		justify-content: center;
+	}
 
-.site-footer {
-	background-color: #d4b89d;
-	color: #fff;
-	padding: 0 200px;
-	text-align: left;
+	.plantblindness {
+		text-align: center;
+		padding: 0px;
+	}
+
+	.second p {
+		text-align: center;
+	}
+
+	.plantblindness a {
+		margin-left: 0px;
+	}
+
+	.plantscaroussel {
+		flex-direction: column;
+		justify-content: space-between;
+		padding-bottom: 65px;
+		text-align: center;
+
+	}
+
 }
 
-.footer-content {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	text-align: left;
-	padding-left: 20px;
-}
+/*responsief tablet*/
+@media (max-width: 1024px) {
+	.titel h1 {
+		margin-bottom: 25px;
+	}
 
-.footer-category {
-	flex: 1;
-	margin-top: 20px;
-}
+	.second {
+		flex-direction: column;
+		justify-content: center;
+	}
 
-.footer-links {
-	list-style: none;
-	padding: 0;
-	margin-top: 20px;
-}
+	.plantblindness {
+		text-align: center;
+		padding: 0px;
+	}
 
-.footer-links li {
-	display: block;
-	margin-bottom: 20px;
-}
+	.second p {
+		text-align: center;
+	}
 
-.footer-links a {
-	text-decoration: none;
-	color: #605643;
-	font-weight: bold;
-	display: block;
-	transition: color 0.3s ease;
-}
+	.plantblindness a {
+		margin-left: 0px;
+	}
 
-.copyright {
-	color: black;
-	margin-top: 20px;
-	text-align: center;
-	width: 100%;
-}
+	.plantscaroussel {
+		flex-direction: column;
+		justify-content: space-between;
+		padding-bottom: 65px;
+		text-align: center;
 
-.footer-links a:hover {
-	color: #fbf8f3;
+	}
 }
