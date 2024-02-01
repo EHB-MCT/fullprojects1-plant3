@@ -24,9 +24,8 @@
 	display: flex;
 	flex-direction: column;
 	flex: none;
-	width: calc(
-		100% - 25px
-	); /* Set width to 100% minus margin to allow responsiveness */
+	width: calc(100% - 25px);
+	/* Set width to 100% minus margin to allow responsiveness */
 	text-align: center;
 }
 
@@ -56,9 +55,11 @@
 	.article {
 		width: 100%;
 	}
+
 	.flowerpicture {
 		width: 85%;
 	}
+
 	h1.reports {
 		text-align: center;
 		margin: 0;
@@ -105,6 +106,7 @@
 	.article2 {
 		width: 100%;
 	}
+
 	h1.notes {
 		text-align: center;
 	}
@@ -122,4 +124,120 @@ h1.reports {
 
 .flowerpicture {
 	margin-left: 55px;
+}
+
+/*Hamburger menu*/
+
+.mobile-container {
+	max-width: 80%;
+	margin: auto;
+	background-color: #555;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+}
+
+.topnav {
+	overflow: hidden;
+	position: relative;
+}
+
+.navigation #myLinks {
+	display: none;
+}
+
+#myLinks {
+	color: #605643;
+}
+
+.navigation a {
+	color: #605643;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.navigation a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.navigation a:hover {}
+
+
+
+@media (min-width:769px) {
+	.navigation a {
+		display: inline-block;
+
+	}
+
+	.navigation #mylinks {
+		display: inline-block !important;
+	}
+
+	.navigation a.icon {
+		display: none;
+	}
+
+	.navigation {
+		text-align: center;
+	}
+}
+
+.navigation a {
+	text-align: center;
+}
+
+.mobile-container {
+	max-width: 769px;
+	margin: auto;
+	background-color: #555;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+}
+
+.navigation {
+	overflow: hidden;
+	position: relative;
+}
+
+
+.navigation a {
+	color: #605643;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.navigation a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+@media (min-width:767px) {
+	.navigation a {
+		display: inline-block;
+
+	}
+
+	.navigation #mylinks {
+		display: inline-block !important;
+		float: right;
+	}
+
+	.navigation a.icon {
+		display: none;
+	}
+
+	.navigation #myLinks {
+		display: block !important;
+	}
 }
