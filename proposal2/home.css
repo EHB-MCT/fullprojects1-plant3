@@ -290,6 +290,10 @@ div.mySlides.fade {
 
 }
 
+
+
+
+
 /*Hamburger menu*/
 .mobile-container {
 	max-width: 80%;
@@ -410,10 +414,24 @@ div.mySlides.fade {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*responsief mobiel*/
 @media (max-width: 767px) {
 	.titel h1 {
 		margin-bottom: 25px;
+		font-size: 109px;
 	}
 
 	.second {
