@@ -51,6 +51,8 @@ input[type="radio"] {
 	align-items: center;
 	bottom: 50%;
 	margin-top: 20%;
+	left: 20%;
+	
 }
 
 .image-container {
@@ -92,15 +94,17 @@ input[type="radio"] {
 		padding: 10px; /* Adjust padding for smaller screens */
 	}
 
-	.image-container {
-		padding-bottom: 75%;
-		position: absolute;
-		top: 40%;
-		left: 10%;
-		width: 80%;
-		height: auto;
-		z-index: -1; /* Place the image container behind other elements */ /* Adjust the aspect ratio for the background image on smaller screens */
-	}
+        .image-container {
+            padding-bottom: 75%; 
+			position: absolute;
+	top: 40%;
+	left: 10%;
+	width: 80%;
+	height: auto;
+	z-index: -1; /* Place the image container behind other elements *//* Adjust the aspect ratio for the background image on smaller screens */
+        }
+
+      
 
 	input {
 		font-size: 16px; /* Adjust font size for smaller screens */
