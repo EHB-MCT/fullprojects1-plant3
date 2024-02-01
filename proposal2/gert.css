@@ -1,76 +1,74 @@
-.gertpicture img {
-	width: 300px;
-	margin-left: 200px;
-	position: absolute;
+.gert-wrapper {
+	margin-top: 10%;
 }
 
-.backgroundflowers img {
-	margin-top: 200px;
-	width: 280px;
+.gert-wrapper h1,
+h2,
+p {
+	margin-left: 10%;
 }
 
-div.backgroundflowers img {
-	margin: 0;
-	margin-top: 150px;
-}
-
-img.fotogert {
-	width: 400px;
-	height: auto;
-	margin-left: 10px;
-	position: relative;
-	z-index: 1; /* Ensure Gert Ausloos' image is on top */
-	margin-bottom: 0px;
-}
-
-.text {
-	margin-left: 690px;
-	position: absolute;	
-	margin-top: 85px;
-	height: 350px;
-    width: 257px;
-}
-
-.twopictures {
+.gert {
+	width: 100%;
 	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+	justify-content: center;
 }
-@media screen and (max-width: 1080px) {
+
+.gerttext1 {
+	max-width: 30%;
 }
-@media screen and (max-width: 700px) {
-	body {
-		background-color: red;
-		display: flex;
-		justify-self: center;
+
+.ausloos-wrapper {
+}
+
+.ausloos p {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pink {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.pink img {
+	width: 25%;
+	margin-left: 10px;
+}
+.flower img {
+	width: 250px;
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+	.gert {
+		flex-direction: column; /* Stack elements vertically on smaller screens */
+		text-align: center; /* Center-align text in the .gert wrapper */
 	}
-	.twopictures {
-		display: flex;
+
+	.gerttext1 {
+		max-width: 100%; /* Take up full width on smaller screens */
+		margin: 10px 0; /* Add some margin between elements */
+	}
+
+	.gert-wrapper h1,
+	.gert-wrapper h2,
+	.gert-wrapper p {
+		margin-left: 0; /* Remove left margin for smaller screens */
+	}
+}
+
+/* Media query for mobile-sized screens (480px) */
+@media screen and (max-width: 480px) {
+	.pink {
 		flex-direction: column;
+		justify-content: center; /* Stack images vertically on smaller screens */
 	}
-	.wrapper {
-		justify-content: center;
-	}
-	.text {
-		margin-left: 0;
-		position: re;
-		margin-top: 0;
-		width: 280px;
-	}
-	div.backgroundflowers img {
-		margin-top: 0;
-		width: 200px;
-	}
-	.gertpicture img {
-		width: 280px;
-		display: flex;
-		justify-content: center;
-	}
-	img.fotogert {
-		margin-left: 0;
-	}
-	div {
-	}
-	.backgroundflowers img {
-		display: flex;
-		justify-content: center;
+
+	.pink img {
+		margin-top: 10px;
+		width: 65%; /* Add some margin between images on mobile */
 	}
 }
