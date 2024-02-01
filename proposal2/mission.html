@@ -15,10 +15,15 @@
 		<link rel="stylesheet" href="css/buttons.css" />
 		<link rel="stylesheet" href="mission.css" />
 		<link rel="stylesheet" href="footer.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link>
 	</head>
 	<body>
 		<div class="outerwrapper">
-			<div class="background-color"></div>
+			<!--
 				<div class="navigation">
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -29,7 +34,20 @@
 						<li><a href="contacts.html">Contact</a></li>
 					</ul>
 				</div>
-
+			-->
+			<div class="navigation">
+				<a href="index.html" class="active"></a>
+				<div id="myLinks">
+					<a href="index.html">Home</a>
+					<a href="mission.html">Missie en Visie</a>
+					<a href="who is who.html">Wie is wie</a>
+					<a href="gert.html">Gert Ausloos</a>
+					<a href="contacts.html">Contact</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
 				<div class="mission">
 				
 						<img src="images/missie.jpg" class="photo" alt="" />
@@ -94,5 +112,17 @@
 					&copy; 2024 Your Company Name. All rights reserved.
 				</p>
 			</div>
-		</footer></body>
+			<script>
+				function myFunction() {
+					var x = document.getElementById("myLinks");
+					if (x.style.display === "block") {
+						x.style.display = "none";
+					} else {
+						x.style.display = "block";
+					}
+				}
+			</script>
+	
+		</footer>
+	</body>
 </html>

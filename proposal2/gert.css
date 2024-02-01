@@ -26,8 +26,7 @@
 	max-width: 30%;
 }
 
-.ausloos-wrapper {
-}
+.ausloos-wrapper {}
 
 .ausloos p {
 	position: relative;
@@ -50,19 +49,24 @@
 
 @media screen and (max-width: 768px) {
 	.gert {
-		flex-direction: column; /* Stack elements vertically on smaller screens */
-		text-align: center; /* Center-align text in the .gert wrapper */
+		flex-direction: column;
+		/* Stack elements vertically on smaller screens */
+		text-align: center;
+		/* Center-align text in the .gert wrapper */
 	}
 
 	.gerttext1 {
-		max-width: 100%; /* Take up full width on smaller screens */
-		margin: 10px 0; /* Add some margin between elements */
+		max-width: 100%;
+		/* Take up full width on smaller screens */
+		margin: 10px 0;
+		/* Add some margin between elements */
 	}
 
 	.gert-wrapper h1,
 	.gert-wrapper h2,
 	.gert-wrapper p {
-		margin-left: 0; /* Remove left margin for smaller screens */
+		margin-left: 0;
+		/* Remove left margin for smaller screens */
 	}
 }
 
@@ -70,16 +74,134 @@
 @media screen and (max-width: 480px) {
 	.pink {
 		flex-direction: column;
-		justify-content: center; /* Stack images vertically on smaller screens */
+		justify-content: center;
+		/* Stack images vertically on smaller screens */
 	}
 
 	.pink img {
 		margin-top: 10px;
-		width: 65%; /* Add some margin between images on mobile */
+		width: 65%;
+		/* Add some margin between images on mobile */
 	}
 
 	.flower img {
 		width: 65%;
 		margin-top: 10px;
+	}
+}
+
+/*Hamburger menu*/
+
+.mobile-container {
+	max-width: 80%;
+	margin: auto;
+	background-color: #555;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+}
+
+.topnav {
+	overflow: hidden;
+	position: relative;
+}
+
+.navigation #myLinks {
+	display: none;
+}
+
+#myLinks {
+	color: #605643;
+}
+
+.navigation a {
+	color: #605643;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.navigation a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.navigation a:hover {}
+
+
+
+@media (min-width:769px) {
+	.navigation a {
+		display: inline-block;
+
+	}
+
+	.navigation #mylinks {
+		display: inline-block !important;
+	}
+
+	.navigation a.icon {
+		display: none;
+	}
+
+	.navigation {
+		text-align: center;
+	}
+}
+
+.navigation a {
+	text-align: center;
+}
+
+.mobile-container {
+	max-width: 769px;
+	margin: auto;
+	background-color: #555;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+}
+
+.navigation {
+	overflow: hidden;
+	position: relative;
+}
+
+
+.navigation a {
+	color: #605643;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.navigation a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+@media (min-width:767px) {
+	.navigation a {
+		display: inline-block;
+
+	}
+
+	.navigation #mylinks {
+		display: inline-block !important;
+		float: right;
+	}
+
+	.navigation a.icon {
+		display: none;
+	}
+
+	.navigation #myLinks {
+		display: block !important;
 	}
 }

@@ -4,11 +4,13 @@ body {
 	padding: 0;
 	height: 100%;
 }
+
 .outerwrapper {
 	min-height: 100%;
 	margin: 0;
 	margin-bottom: 0;
 }
+
 .background-color {
 	width: 100%;
 	background-color: yellow;
@@ -21,6 +23,7 @@ body {
 	background-color: #d4b89d;
 	justify-content: center;
 }
+
 .wrapper {
 	max-width: 1200px;
 	height: 100%;
@@ -84,7 +87,7 @@ body {
 }
 
 @media screen and (max-width: 1023px) {
-	.mission{
+	.mission {
 		width: 100%;
 		padding: 30px;
 		box-sizing: border-box;
@@ -94,6 +97,7 @@ body {
 		flex-direction: column;
 		align-items: center;
 	}
+
 	.vision {
 		width: 100%;
 		padding: 30px;
@@ -121,7 +125,124 @@ body {
 	.photo {
 		margin-bottom: 60px;
 	}
+
 	.vision .photo {
 		order: -1;
+	}
+}
+
+/*Hamburger menu*/
+
+.mobile-container {
+	max-width: 80%;
+	margin: auto;
+	background-color: #555;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+}
+
+.topnav {
+	overflow: hidden;
+	position: relative;
+}
+
+.navigation #myLinks {
+	display: none;
+}
+
+#myLinks {
+	color: #605643;
+}
+
+.navigation a {
+	color: #605643;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.navigation a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.navigation a:hover {}
+
+
+
+@media (min-width:769px) {
+	.navigation a {
+		display: inline-block;
+
+	}
+
+	.navigation #mylinks {
+		display: inline-block !important;
+	}
+
+	.navigation a.icon {
+		display: none;
+	}
+
+	.navigation {
+		text-align: center;
+	}
+}
+
+.navigation a {
+	text-align: center;
+}
+
+.mobile-container {
+	max-width: 769px;
+	margin: auto;
+	background-color: #555;
+	height: 500px;
+	color: white;
+	border-radius: 10px;
+}
+
+.navigation {
+	overflow: hidden;
+	position: relative;
+}
+
+
+.navigation a {
+	color: #605643;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+}
+
+.navigation a.icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+@media (min-width:767px) {
+	.navigation a {
+		display: inline-block;
+
+	}
+
+	.navigation #mylinks {
+		display: inline-block !important;
+		float: right;
+	}
+
+	.navigation a.icon {
+		display: none;
+	}
+
+	.navigation #myLinks {
+		display: block !important;
 	}
 }
