@@ -29,6 +29,7 @@
 	background-color: white;
 	color: #415b01;
 	white-space: none;
+	border: none;
 }
 
 .button:hover {
