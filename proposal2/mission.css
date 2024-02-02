@@ -47,22 +47,11 @@ body {
 
 .text2 {
 	max-height: 30%;
-	padding-left: 300px;
-
 }
 
-.text1 {
-	padding-right: 300px;
-}
-
-.mission .photo {
-	width: 35%;
-	margin: 100px 60px 100px 10px;
-}
-
-.vision .photo {
-	width: 35%;
-	margin: 100px 10px 100px 60px;
+.photo {
+	width: 20%;
+	margin: 100px 50px 100px 10px;
 }
 
 .wave-header {
