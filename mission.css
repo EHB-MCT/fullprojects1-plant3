@@ -156,7 +156,7 @@ body {
 
 .navigation a {
 	color: #605643;
-	padding: 14px 16px;
+	padding: 10px 12px;
 	text-decoration: none;
 	font-size: 17px;
 	display: block;
@@ -169,7 +169,6 @@ body {
 	top: 0;
 }
 
-.navigation a:hover {}
 
 @media (min-width: 769px) {
 	.navigation a {
@@ -189,38 +188,14 @@ body {
 	}
 }
 
-.navigation a {
-	text-align: center;
-}
-
-.mobile-container {
-	max-width: 769px;
-	margin: auto;
-	background-color: #555;
-	height: 500px;
-	color: white;
-	border-radius: 10px;
-}
 
 .navigation {
 	overflow: hidden;
 	position: relative;
+	text-align: center;
+
 }
 
-.navigation a {
-	color: #605643;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	display: block;
-}
-
-.navigation a.icon {
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
 
 @media (min-width: 767px) {
 	.navigation a {
@@ -229,7 +204,6 @@ body {
 
 	.navigation #mylinks {
 		display: inline-block !important;
-		float: right;
 	}
 
 	.navigation a.icon {

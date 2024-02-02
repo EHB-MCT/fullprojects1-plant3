@@ -185,9 +185,11 @@ h1.reports {
 		text-align: center;
 	}
 }
+
 .navigation {
 	overflow: hidden;
 	position: relative;
+	text-align: center;
 }
 
 @media (min-width: 767px) {
