@@ -59,9 +59,6 @@
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
-	.rapport {
-		justify-content: center;
-	}
 
 	.flowerpicture {
 		width: 85%;
