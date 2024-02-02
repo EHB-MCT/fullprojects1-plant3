@@ -168,6 +168,7 @@ div.mySlides.fade {
 
 /* On smaller screens, decrease text size (caroussel responsief) */
 @media only screen and (max-width: 300px) {
+
 	.prev,
 	.next,
 	.text {
@@ -238,6 +239,7 @@ div.mySlides.fade {
 }
 
 @media (min-width: 320px) {
+
 	.prev,
 	.next {
 		cursor: pointer;
@@ -339,13 +341,13 @@ div.mySlides.fade {
 /*responsief mobiel*/
 @media (max-width: 587px) {
 	.titel h1 {
-		font-size: 40px !important;
+		font-size: 60px !important;
 	}
 }
 
 @media (max-width: 621px) {
 	.titel h1 {
-		font-size: 65px !important;
+		font-size: 65px;
 	}
 }
 
@@ -353,7 +355,7 @@ div.mySlides.fade {
 	.titel h1 {
 		margin-bottom: 25px;
 		margin-top: 100px;
-		font-size: 80px !important;
+		font-size: 80px;
 	}
 }
 
@@ -361,7 +363,7 @@ div.mySlides.fade {
 	.titel h1 {
 		margin-bottom: 25px;
 		margin-top: 100px;
-		font-size: 90px !important;
+		font-size: 90px;
 	}
 
 	.second {
@@ -390,13 +392,16 @@ div.mySlides.fade {
 	}
 }
 
-/*responsief tablet*/
-
-@media (max-width: 1024px) {
+@media (max-width: 935px) {
 	.titel h1 {
 		font-size: 90px !important;
 		margin-bottom: 25px;
 	}
+}
+
+/*responsief tablet*/
+
+@media (max-width: 1024px) {
 
 	.second {
 		flex-direction: column;
