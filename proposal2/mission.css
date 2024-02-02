@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	height: 100%;
 }
+
 body {
 	margin: 0;
 	padding: 0;
@@ -46,11 +47,22 @@ body {
 
 .text2 {
 	max-height: 30%;
+	padding-left: 300px;
+
 }
 
-.photo {
-	width: 20%;
-	margin: 100px 50px 100px 10px;
+.text1 {
+	padding-right: 300px;
+}
+
+.mission .photo {
+	width: 35%;
+	margin: 100px 60px 100px 10px;
+}
+
+.vision .photo {
+	width: 35%;
+	margin: 100px 10px 100px 60px;
 }
 
 .wave-header {
@@ -168,8 +180,7 @@ body {
 	top: 0;
 }
 
-.navigation a:hover {
-}
+.navigation a:hover {}
 
 @media (min-width: 769px) {
 	.navigation a {
