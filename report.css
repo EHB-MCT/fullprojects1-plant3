@@ -30,7 +30,6 @@
 	flex-direction: column;
 	flex: none;
 	width: calc(100% - 25px);
-	/* Set width to 100% minus margin to allow responsiveness */
 	text-align: center;
 }
 
