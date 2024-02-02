@@ -17,16 +17,6 @@ input {
 	border: 1px solid #ccc;
 }
 
-/* Style radio buttons
-input[type="radio"] {
-	margin-right: 5px;
-} */
-
-/* Add some spacing between radio buttons and their labels */
-/* label input[type="radio"] {
-	margin-top: 10px;
-} */
-
 .contactimg img {
 	width: 50%;
 }
@@ -61,7 +51,6 @@ input[type="radio"] {
 	width: 30%;
 	height: auto;
 	z-index: -1;
-	/* Place the image container behind other elements */
 }
 
 .background-image {
@@ -73,15 +62,11 @@ input[type="radio"] {
 .wrapper {
 	position: relative;
 	z-index: 1;
-	/* Place the forms container above the image container */
-	/* Your existing styles for .wrapper */
 }
 
 .sendbt {
 	margin-top: 3%;
 }
-
-/* Add your non-responsive CSS styles here */
 
 @media only screen and (max-width: 768px) {
 	form {
@@ -91,19 +76,16 @@ input[type="radio"] {
 		margin-bottom: 80%;
 	}
 
-	/* Add responsive CSS styles here */
-
 	.wrapper {
 		padding: 10px;
 	}
 
 	.image-container {
-		display: none; /* Hide the image container on smaller screens */
+		display: none;
 	}
 
 	input {
 		font-size: 16px;
-		/* Adjust font size for smaller screens */
 	}
 
 	.flex-container {
@@ -137,10 +119,11 @@ input[type="radio"] {
 
 .navigation a {
 	color: #605643;
-	padding: 14px 16px;
+	padding: 10px 12px;
 	text-decoration: none;
 	font-size: 17px;
 	display: block;
+	text-align: center;
 }
 
 .navigation a.icon {
@@ -148,9 +131,6 @@ input[type="radio"] {
 	position: absolute;
 	right: 0;
 	top: 0;
-}
-
-.navigation a:hover {
 }
 
 @media (min-width: 769px) {
@@ -171,37 +151,9 @@ input[type="radio"] {
 	}
 }
 
-.navigation a {
-	text-align: center;
-}
-
-.mobile-container {
-	max-width: 769px;
-	margin: auto;
-	background-color: #555;
-	height: 500px;
-	color: white;
-	border-radius: 10px;
-}
-
 .navigation {
 	overflow: hidden;
 	position: relative;
-}
-
-.navigation a {
-	color: #605643;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	display: block;
-}
-
-.navigation a.icon {
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 0;
 }
 
 @media (min-width: 767px) {
@@ -211,7 +163,6 @@ input[type="radio"] {
 
 	.navigation #mylinks {
 		display: inline-block !important;
-		float: right;
 	}
 
 	.navigation a.icon {

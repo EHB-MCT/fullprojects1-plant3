@@ -73,7 +73,7 @@ a {
 	text-align: center;
 	padding-bottom: 25px;
 	color: #605643;
-	max-width: calc(100%-15px);
+	max-width: calc (100%-15px);
 }
 
 @media screen and (max-width: 767px) {
@@ -153,9 +153,6 @@ a {
 	top: 0;
 }
 
-.navigation a:hover {
-}
-
 @media (min-width: 769px) {
 	.navigation a {
 		display: inline-block;
@@ -174,37 +171,9 @@ a {
 	}
 }
 
-.navigation a {
-	text-align: center;
-}
-
-.mobile-container {
-	max-width: 769px;
-	margin: auto;
-	background-color: #555;
-	height: 500px;
-	color: white;
-	border-radius: 10px;
-}
-
 .navigation {
 	overflow: hidden;
 	position: relative;
-}
-
-.navigation a {
-	color: #605643;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-	display: block;
-}
-
-.navigation a.icon {
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 0;
 }
 
 @media (min-width: 767px) {
@@ -214,7 +183,6 @@ a {
 
 	.navigation #mylinks {
 		display: inline-block !important;
-		float: right;
 	}
 
 	.navigation a.icon {

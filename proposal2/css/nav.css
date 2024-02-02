@@ -2,51 +2,7 @@
 
 body {
 	overflow-y: scroll;
-	/* always show scrollbar */
 }
-
-/* .navigation {
-	display: flex;
-	justify-content: center;
-	font-size: 16px;
-	margin-top: 10px;
-	border-bottom: #415b01;
-}
-
-.navigation ul {
-	margin: 0;
-	padding: 0px;
-}
-
-.navigation ul li {
-	display: inline-block;
-
-	margin-right: 20px;
-}
-
-.navigation ul li:last-child {
-	margin-right: 0;
-}
-
-.navigation ul li a {
-	text-decoration: none;
-	color: #5f5642;
-}
-
-.navigation ul li a:hover {
-	color: #415b01;
-	border-bottom: 2px solid #415b01;
-}
-
-.navigation ul li a.active {
-	border-bottom: 2px solid #415b01;
-}
-
-.active {
-	text-decoration: underline;
-}
-
-} */
 
 .navigation {
 	display: flex;
@@ -64,7 +20,7 @@ body {
 #myLinks a {
 	text-decoration: none;
 	color: #5f5642;
-	margin: 0 15px; /* Adjust the spacing between navigation items */
+
 	position: relative;
 }
 
@@ -74,5 +30,6 @@ body {
 
 #myLinks a.active {
 	color: #415b01;
-	border-bottom: 2px solid #415b01; /* Add a line under the active link */
+	border-bottom: 2px solid #415b01;
+	padding: 0; /* Add a line under the active link */
 }
